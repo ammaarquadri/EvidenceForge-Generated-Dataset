@@ -1,0 +1,662 @@
+<30>1 2024-05-14T12:00:57.796817Z PROXY-BO-01 rsyslogd 38115 - - imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' fd 26
+<30>1 2024-05-14T12:01:05.546991Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 147.5M, max 256M, 108.5M free.
+<78>1 2024-05-14T12:01:35.342757Z PROXY-BO-01 CRON 232332 - - (sysstat) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+<30>1 2024-05-14T12:02:12.838642Z PROXY-BO-01 snapd 38409 - - daemon.go:460: gracefully waiting for hook core22.configure
+<30>1 2024-05-14T12:02:21.447675Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 148.1M, max 256M, 107.9M free.
+<86>1 2024-05-14T12:02:52.421896Z PROXY-BO-01 sudo 232350 - - pam_unix(sudo:session): session opened for user root(uid=0) by svc_app(uid=2214)
+<85>1 2024-05-14T12:02:52.512896Z PROXY-BO-01 sudo 232350 - - svc_app : TTY=pts/1 ; PWD=/home/ops ; USER=root ; COMMAND=/usr/bin/needrestart -b
+<86>1 2024-05-14T12:02:53.395896Z PROXY-BO-01 sudo 232350 - - pam_unix(sudo:session): session closed for user root
+<30>1 2024-05-14T12:03:03.379174Z PROXY-BO-01 dbus-daemon 38165 - - [system] Activating via systemd: service name='org.freedesktop.login1' unit='dbus-org.freedesktop.login1.service' requested by ':1.134'
+<30>1 2024-05-14T12:03:24.585017Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 152.0M, max 256M, 104.0M free.
+<30>1 2024-05-14T12:03:30.241379Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 154.7M, max 256M, 101.3M free.
+<30>1 2024-05-14T12:04:19.797827Z PROXY-BO-01 snapd 38409 - - stateengine.go:150: state ensure starting change 1408
+<30>1 2024-05-14T12:04:40.493408Z PROXY-BO-01 snapd 38409 - - daemon.go:460: gracefully waiting for hook core20.configure
+<30>1 2024-05-14T12:04:58.820751Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 160.0M, max 256M, 96.0M free.
+<86>1 2024-05-14T12:04:59.723310Z PROXY-BO-01 sudo 232354 - - pam_unix(sudo:session): session opened for user root(uid=0) by svc_app(uid=2214)
+<85>1 2024-05-14T12:04:59.907310Z PROXY-BO-01 sudo 232354 - - svc_app : TTY=pts/2 ; PWD=/tmp ; USER=root ; COMMAND=/bin/systemctl status squid
+<86>1 2024-05-14T12:05:00.788310Z PROXY-BO-01 sudo 232354 - - pam_unix(sudo:session): session closed for user root
+<30>1 2024-05-14T12:05:49.980400Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 165.0M, max 256M, 91.0M free.
+<30>1 2024-05-14T12:08:43.423107Z PROXY-BO-01 irqbalance 36974 - - Skipping IRQ 64: banned by affinity mask 00000008 (nvme0q1)
+<30>1 2024-05-14T12:09:26.508733Z PROXY-BO-01 snapd 38409 - - daemon.go:460: gracefully waiting for hook core20.configure
+<30>1 2024-05-14T12:09:38.465181Z PROXY-BO-01 unattended-upgr 41475 - - Allowed origins are: o=Ubuntu,a=jammy-updates
+<30>1 2024-05-14T12:09:47.608834Z PROXY-BO-01 rsyslogd 38115 - - action 'local_file' resumed after retry 39031, next retry disabled
+<30>1 2024-05-14T12:10:08.347797Z PROXY-BO-01 systemd-resolved 38457 - - Transaction 693631 switched to UDP with advertised UDP packet size 512.
+<30>1 2024-05-14T12:10:22.190696Z PROXY-BO-01 unattended-upgr 41475 - - No packages found that can be upgraded unattended (run 463726)
+<30>1 2024-05-14T12:11:36.103777Z PROXY-BO-01 rsyslogd 38115 - - action 'fwd_core' resumed after retry 69302, next retry disabled
+<30>1 2024-05-14T12:11:47.925756Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 168.3M, max 256M, 87.7M free.
+<30>1 2024-05-14T12:12:04.969602Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 172.7M, max 256M, 83.3M free.
+<30>1 2024-05-14T12:12:45.532220Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 174.6M, max 256M, 81.4M free.
+<30>1 2024-05-14T12:12:47.669457Z PROXY-BO-01 snapd 38409 - - taskrunner.go:271: change 1407 task 8 done for microk8s
+<86>1 2024-05-14T12:16:48.574956Z PROXY-BO-01 sudo 232408 - - pam_unix(sudo:session): session opened for user root(uid=0) by deploy(uid=1002)
+<85>1 2024-05-14T12:16:48.659956Z PROXY-BO-01 sudo 232408 - - deploy : TTY=pts/0 ; PWD=/etc ; USER=root ; COMMAND=/usr/bin/vmstat 1 5
+<86>1 2024-05-14T12:16:49.115956Z PROXY-BO-01 sudo 232408 - - pam_unix(sudo:session): session closed for user root
+<30>1 2024-05-14T12:18:02.111909Z PROXY-BO-01 dbus-daemon 38165 - - [system] Successfully activated service 'org.freedesktop.resolve1' for ':1.135'
+<30>1 2024-05-14T12:18:26.370387Z PROXY-BO-01 polkitd 22038 - - Unregistered Authentication Agent for unix-session:36 (system bus name :1.101, object path /org/freedesktop/PolicyKit1/AuthenticationAgent)
+<30>1 2024-05-14T12:18:27.068300Z PROXY-BO-01 polkitd 22038 - - Unregistered Authentication Agent for unix-session:36 (system bus name :1.109, object path /org/freedesktop/PolicyKit1/AuthenticationAgent)
+<30>1 2024-05-14T12:18:57.825535Z PROXY-BO-01 snapd 38409 - - stateengine.go:150: state ensure starting change 1415
+<85>1 2024-05-14T12:18:59.293674Z PROXY-BO-01 sudo 232545 - - apache : command not allowed ; TTY=pts/0 ; USER=root ; COMMAND=/usr/bin/find /srv -maxdepth 2 -type f -name backup*.tar.gz
+<86>1 2024-05-14T12:19:21.975764Z PROXY-BO-01 sshd 232355 - - Connection from 10.44.10.24 port 55369 on 10.44.20.30 port 22
+<86>1 2024-05-14T12:19:25.302983Z PROXY-BO-01 sshd 232355 - - Accepted password for nina.kapoor from 10.44.10.24 port 55369 ssh2
+<86>1 2024-05-14T12:19:25.477207Z PROXY-BO-01 sshd 232355 - - pam_unix(sshd:session): session opened for user nina.kapoor(uid=4614) by (uid=0)
+<86>1 2024-05-14T12:19:26.178436Z PROXY-BO-01 systemd-logind 38189 - - New session 80827 of user nina.kapoor.
+<30>1 2024-05-14T12:20:06.514093Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 182.0M, max 256M, 74.0M free.
+<30>1 2024-05-14T12:20:40.867014Z PROXY-BO-01 systemd-resolved 38457 - - Flushed stale cache scope enp0s3 after DNS server 10.44.20.10 changed features.
+<30>1 2024-05-14T12:20:50.694161Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 184.7M, max 256M, 71.3M free.
+<30>1 2024-05-14T12:21:13.517936Z PROXY-BO-01 anacron 17748 - - Will run job `cron.daily' in 11 min.
+<30>1 2024-05-14T12:21:13Z PROXY-BO-01 anacron 17748 - - Anacron 2.3 started on 2024-05-14
+<30>1 2024-05-14T12:21:16.582982Z PROXY-BO-01 snapd 38409 - - snapmgr.go:523: refresh candidates checked for snapd-desktop-integration
+<30>1 2024-05-14T12:21:46.971759Z PROXY-BO-01 irqbalance 36974 - - IRQ 122 classified for CPU 2 balancing on ens160
+<30>1 2024-05-14T12:22:10.411172Z PROXY-BO-01 snapd 38409 - - autorefresh.go:540: auto-refresh for microk8s: no updates found
+<30>1 2024-05-14T12:22:10.855694Z PROXY-BO-01 snapd 38409 - - taskrunner.go:271: change 1407 task 3 done for lxd
+<30>1 2024-05-14T12:22:28.618941Z PROXY-BO-01 systemd-resolved 38457 - - Grace period over, resuming full feature set UDP+EDNS0 for DNS server 10.44.20.10 after probe 786493.
+<30>1 2024-05-14T12:22:40.308847Z PROXY-BO-01 irqbalance 36974 - - NUMA node 1: balancing pass complete, 2 IRQs moved
+<30>1 2024-05-14T12:22:40.542913Z PROXY-BO-01 systemd-resolved 38457 - - Grace period over, resuming full feature set UDP+EDNS0 for DNS server 10.44.20.10 after probe 456600.
+<30>1 2024-05-14T12:22:44.712322Z PROXY-BO-01 dbus-daemon 38165 - - [system] Successfully activated service 'org.freedesktop.resolve1' for ':1.136'
+<30>1 2024-05-14T12:24:21.532303Z PROXY-BO-01 dbus-daemon 38165 - - [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.138'
+<30>1 2024-05-14T12:24:23.163208Z PROXY-BO-01 polkitd 22038 - - Unregistered Authentication Agent for unix-session:36 (system bus name :1.115, object path /org/freedesktop/PolicyKit1/AuthenticationAgent)
+<30>1 2024-05-14T12:24:24.768097Z PROXY-BO-01 irqbalance 36974 - - Skipping IRQ 24: banned by affinity mask 00000008 (ahci)
+<30>1 2024-05-14T12:25:14.498257Z PROXY-BO-01 rsyslogd 38115 - - action 'local_file' resumed after retry 96812, next retry disabled
+<30>1 2024-05-14T12:25:30.915027Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 190.1M, max 256M, 65.9M free.
+<30>1 2024-05-14T12:25:47.596438Z PROXY-BO-01 irqbalance 36974 - - Skipping IRQ 137: banned by affinity mask 00000004 (mlx5_comp0)
+<30>1 2024-05-14T12:25:48.346978Z PROXY-BO-01 polkitd 22038 - - Operator of unix-process:232593:60634635 successfully authenticated as unix-user:root to gain TEMPORARY authorization for action org.freedesktop.packagekit.system-update for system-bus-name::1.140 [/usr/lib/packagekit/packagekitd] (owned by unix-user:deploy)
+<86>1 2024-05-14T12:25:52.694807Z PROXY-BO-01 sshd 232603 - - Connection from 10.44.20.10 port 51780 on 10.44.20.30 port 22
+<86>1 2024-05-14T12:25:52.948005Z PROXY-BO-01 sshd 232603 - - Accepted publickey for nina.kapoor from 10.44.20.10 port 51780 ssh2: ECDSA SHA256:OLovx7hRSkBx3qD60SZWM+5RRL3qCUlBo6Fv1s0OYJP
+<86>1 2024-05-14T12:25:52.995175Z PROXY-BO-01 sshd 232603 - - pam_unix(sshd:session): session opened for user nina.kapoor(uid=4614) by (uid=0)
+<86>1 2024-05-14T12:25:53.500399Z PROXY-BO-01 systemd-logind 38189 - - New session 80879 of user nina.kapoor.
+<30>1 2024-05-14T12:25:58.047915Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 192.4M, max 256M, 63.6M free.
+<30>1 2024-05-14T12:27:08.805269Z PROXY-BO-01 irqbalance 36974 - - NUMA node 0: balancing pass complete, 1 IRQs moved
+<30>1 2024-05-14T12:27:10.345972Z PROXY-BO-01 unattended-upgr 41475 - - Allowed origins are: o=Ubuntu,a=jammy-security
+<30>1 2024-05-14T12:27:50.749961Z PROXY-BO-01 unattended-upgr 41475 - - Allowed origins are: o=Ubuntu,a=jammy; o=Ubuntu,a=jammy-security
+<30>1 2024-05-14T12:27:54.632309Z PROXY-BO-01 unattended-upgr 41475 - - No packages found that can be upgraded unattended (run 648679)
+<30>1 2024-05-14T12:28:22.714878Z PROXY-BO-01 polkitd 22038 - - Subject unix-process:232654:60649918 is authorized for action org.freedesktop.packagekit.system-update
+<30>1 2024-05-14T12:30:59.783851Z PROXY-BO-01 rsyslogd 38115 - - module imuxsock: worker thread pool adjusted to 3
+<78>1 2024-05-14T12:31:10.110352Z PROXY-BO-01 CRON 232478 - - (sysstat) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+<86>1 2024-05-14T12:31:23.128256Z PROXY-BO-01 sudo 232680 - - pam_unix(sudo:session): session opened for user root(uid=0) by backup(uid=3037)
+<85>1 2024-05-14T12:31:23.518256Z PROXY-BO-01 sudo 232680 - - backup : TTY=pts/2 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/systemctl list-timers --all --no-pager
+<86>1 2024-05-14T12:31:24.310256Z PROXY-BO-01 sudo 232680 - - pam_unix(sudo:session): session closed for user root
+<30>1 2024-05-14T12:32:06.171477Z PROXY-BO-01 dbus-daemon 38165 - - [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.143'
+<30>1 2024-05-14T12:32:17.569234Z PROXY-BO-01 anacron 17748 - - Job `cron.daily' started
+<30>1 2024-05-14T12:33:14.047321Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 72.8M, max 256M, 183.2M free.
+<30>1 2024-05-14T12:33:22.650055Z PROXY-BO-01 dbus-daemon 38165 - - [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.146'
+<30>1 2024-05-14T12:33:24.263053Z PROXY-BO-01 dbus-daemon 38165 - - [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.148'
+<30>1 2024-05-14T12:33:53.796802Z PROXY-BO-01 snapd 38409 - - taskrunner.go:271: change 1407 task 5 done for core20
+<86>1 2024-05-14T12:34:00.199851Z PROXY-BO-01 sshd 232702 - - Connection from 10.44.30.10 port 33955 on 10.44.20.30 port 22
+<86>1 2024-05-14T12:34:00.536034Z PROXY-BO-01 sshd 232702 - - Accepted publickey for nina.kapoor from 10.44.30.10 port 33955 ssh2: ECDSA SHA256:NowJ37pssN0mTVkCx4f624JKjNjFMuWooddxAIVegkl
+<86>1 2024-05-14T12:34:00.709274Z PROXY-BO-01 sshd 232702 - - pam_unix(sshd:session): session opened for user nina.kapoor(uid=4614) by (uid=0)
+<86>1 2024-05-14T12:34:01.247481Z PROXY-BO-01 systemd-logind 38189 - - New session 80945 of user nina.kapoor.
+<30>1 2024-05-14T12:34:16.754460Z PROXY-BO-01 anacron 17748 - - Job `cron.daily' terminated
+<30>1 2024-05-14T12:34:18.130056Z PROXY-BO-01 anacron 17748 - - Normal exit (1 job run)
+<30>1 2024-05-14T12:34:48.124757Z PROXY-BO-01 rsyslogd 38115 - - action 'local_file' resumed after retry 60030, next retry disabled
+<30>1 2024-05-14T12:34:49.288602Z PROXY-BO-01 systemd 1 - - Starting motd-news.service - Message of the Day.
+<30>1 2024-05-14T12:34:53.643419Z PROXY-BO-01 systemd 1 - - Finished motd-news.service - Message of the Day.
+<30>1 2024-05-14T12:35:48.626339Z PROXY-BO-01 irqbalance 36974 - - IRQ 64 classified for CPU 3 balancing on mlx5_comp0
+<30>1 2024-05-14T12:36:19.570496Z PROXY-BO-01 rsyslogd 38115 - - omfwd: target logrelay01 using disk-assisted queue local-spool, checkpoint 94851
+<30>1 2024-05-14T12:36:47.328166Z PROXY-BO-01 dbus-daemon 38165 - - [system] Successfully activated service 'org.freedesktop.locale1' for ':1.149'
+<30>1 2024-05-14T12:37:27.824070Z PROXY-BO-01 dbus-daemon 38165 - - [system] Activating via systemd: service name='org.freedesktop.login1' unit='dbus-org.freedesktop.login1.service' requested by ':1.151'
+<30>1 2024-05-14T12:37:50.355936Z PROXY-BO-01 dbus-daemon 38165 - - [system] Successfully activated service 'org.freedesktop.resolve1' for ':1.154'
+<30>1 2024-05-14T12:38:13.491803Z PROXY-BO-01 snapd 38409 - - autorefresh.go:540: auto-refresh for snapd-desktop-integration: no updates found
+<30>1 2024-05-14T12:38:49.776059Z PROXY-BO-01 unattended-upgr 41475 - - dpkg --status-fd: processing triggers for man-db (python3-apt)
+<30>1 2024-05-14T12:39:08.622319Z PROXY-BO-01 systemd-resolved 38457 - - Using degraded feature set TCP instead of UDP+EDNS0 for DNS server 10.44.20.10 after transaction 786021.
+<30>1 2024-05-14T12:39:56.149724Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 76.8M, max 256M, 179.2M free.
+<30>1 2024-05-14T12:40:07.691520Z PROXY-BO-01 polkitd 22038 - - Subject unix-process:232792:60720697 is authorized for action org.freedesktop.systemd1.manage-units
+<30>1 2024-05-14T12:40:27.265288Z PROXY-BO-01 dbus-daemon 38165 - - [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.158'
+<86>1 2024-05-14T12:40:29.456646Z PROXY-BO-01 sshd 232849 - - Connection from 10.44.20.10 port 54808 on 10.44.20.30 port 22
+<86>1 2024-05-14T12:40:29.601824Z PROXY-BO-01 sshd 232849 - - Accepted publickey for nina.kapoor from 10.44.20.10 port 54808 ssh2: ECDSA SHA256:OLovx7hRSkBx3qD60SZWM+5RRL3qCUlBo6Fv1s0OYJP
+<86>1 2024-05-14T12:40:29.677079Z PROXY-BO-01 sshd 232849 - - pam_unix(sshd:session): session opened for user nina.kapoor(uid=4614) by (uid=0)
+<30>1 2024-05-14T12:40:29.913381Z PROXY-BO-01 dbus-daemon 38165 - - [system] Successfully activated service 'org.freedesktop.locale1' for ':1.159'
+<86>1 2024-05-14T12:40:30.335222Z PROXY-BO-01 systemd-logind 38189 - - New session 80997 of user nina.kapoor.
+<30>1 2024-05-14T12:42:29.897070Z PROXY-BO-01 unattended-upgr 41475 - - dpkg --status-fd: processing triggers for man-db (libc6)
+<30>1 2024-05-14T12:43:09.406386Z PROXY-BO-01 polkitd 22038 - - Operator of unix-process:232893:60738741 successfully authenticated as unix-user:deploy to gain TEMPORARY authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.162 [/usr/bin/systemctl] (owned by unix-user:root)
+<86>1 2024-05-14T12:43:59.618675Z PROXY-BO-01 sshd 232603 - - pam_unix(sshd:session): session closed for user nina.kapoor
+<30>1 2024-05-14T12:45:12.018484Z PROXY-BO-01 snapd 38409 - - autorefresh.go:540: auto-refresh for core22: no updates found
+<30>1 2024-05-14T12:45:42.356701Z PROXY-BO-01 unattended-upgr 41475 - - No packages found that can be upgraded unattended (run 296390)
+<30>1 2024-05-14T12:45:50.467827Z PROXY-BO-01 dbus-daemon 38165 - - [system] Activating via systemd: service name='org.freedesktop.login1' unit='dbus-org.freedesktop.login1.service' requested by ':1.163'
+<30>1 2024-05-14T12:45:51.471639Z PROXY-BO-01 rsyslogd 38115 - - module omfile: worker thread pool adjusted to 3
+<30>1 2024-05-14T12:46:32.263147Z PROXY-BO-01 irqbalance 36974 - - IRQ 45 affinity hint keeps vector on CPU 0 (virtio0-input)
+<30>1 2024-05-14T12:47:01.216316Z PROXY-BO-01 systemd-resolved 38457 - - Using degraded feature set TCP instead of UDP+EDNS0 for DNS server 10.44.20.10 after transaction 588069.
+<30>1 2024-05-14T12:47:27.765965Z PROXY-BO-01 polkitd 22038 - - Operator of unix-process:232962:60764539 successfully authenticated as unix-user:deploy to gain TEMPORARY authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.165 [/usr/bin/systemctl] (owned by unix-user:deploy)
+<30>1 2024-05-14T12:49:23.570204Z PROXY-BO-01 irqbalance 36974 - - IRQ 32 classified for CPU 2 balancing on ahci
+<30>1 2024-05-14T12:49:25.108616Z PROXY-BO-01 polkitd 22038 - - Registered Authentication Agent for unix-session:43 (system bus name :1.167 [/usr/libexec/polkit-gnome-authentication-agent-1], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+<30>1 2024-05-14T12:49:25.403373Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 80.6M, max 256M, 175.4M free.
+<30>1 2024-05-14T12:49:51.331236Z PROXY-BO-01 irqbalance 36974 - - Skipping IRQ 32: banned by affinity mask 00000004 (mlx5_comp0)
+<30>1 2024-05-14T12:50:18.346375Z PROXY-BO-01 irqbalance 36974 - - IRQ 64 affinity hint keeps vector on CPU 0 (ahci)
+<30>1 2024-05-14T12:50:28.914886Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 81.6M, max 256M, 174.4M free.
+<30>1 2024-05-14T12:50:47.450514Z PROXY-BO-01 systemd-resolved 38457 - - Using degraded feature set TCP instead of UDP+EDNS0 for DNS server 10.44.20.10 after transaction 450759.
+<86>1 2024-05-14T12:50:49.002585Z PROXY-BO-01 sshd 232702 - - pam_unix(sshd:session): session closed for user nina.kapoor
+<30>1 2024-05-14T12:51:05.675018Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 83.7M, max 256M, 172.3M free.
+<30>1 2024-05-14T12:53:14.261650Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 85.8M, max 256M, 170.2M free.
+<30>1 2024-05-14T12:53:29.201744Z PROXY-BO-01 polkitd 22038 - - Unregistered Authentication Agent for unix-session:36 (system bus name :1.123, object path /org/freedesktop/PolicyKit1/AuthenticationAgent)
+<30>1 2024-05-14T12:53:59.455838Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 92.2M, max 256M, 163.8M free.
+<30>1 2024-05-14T12:54:09.985889Z PROXY-BO-01 dbus-daemon 38165 - - [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.170'
+<86>1 2024-05-14T12:54:26.644178Z PROXY-BO-01 sudo 233002 - - pam_unix(sudo:session): session opened for user admin(uid=1001) by (uid=0)
+<86>1 2024-05-14T12:54:31.062178Z PROXY-BO-01 systemd-logind 38189 - - New session 81108 of user admin.
+<86>1 2024-05-14T12:54:42.966127Z PROXY-BO-01 sudo 233036 - - pam_unix(sudo:session): session opened for user root(uid=0) by svc_app(uid=2214)
+<85>1 2024-05-14T12:54:43.081127Z PROXY-BO-01 sudo 233036 - - svc_app : TTY=pts/2 ; PWD=/tmp ; USER=root ; COMMAND=/usr/bin/find /var/log -type f -mtime -1
+<86>1 2024-05-14T12:54:43.757127Z PROXY-BO-01 sudo 233036 - - pam_unix(sudo:session): session closed for user root
+<30>1 2024-05-14T12:54:44.931569Z PROXY-BO-01 polkitd 22038 - - Operator of unix-process:233050:60808152 successfully authenticated as unix-user:admin to gain TEMPORARY authorization for action org.freedesktop.NetworkManager.settings.modify.system for system-bus-name::1.171 [/usr/bin/nmcli] (owned by unix-user:root)
+<30>1 2024-05-14T12:55:46.343037Z PROXY-BO-01 irqbalance 36974 - - IRQ 137 affinity hint keeps vector on CPU 1 (mlx5_comp0)
+<30>1 2024-05-14T12:58:02.177586Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 94.5M, max 256M, 161.5M free.
+<30>1 2024-05-14T12:58:40.572864Z PROXY-BO-01 irqbalance 36974 - - IRQ 16 classified for CPU 3 balancing on ens160
+<30>1 2024-05-14T12:58:55.028002Z PROXY-BO-01 irqbalance 36974 - - IRQ 32 classified for CPU 1 balancing on ens160
+<30>1 2024-05-14T12:58:55.319516Z PROXY-BO-01 polkitd 22038 - - Registered Authentication Agent for unix-session:38 (system bus name :1.174 [/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+<30>1 2024-05-14T12:59:30.377173Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 97.4M, max 256M, 158.6M free.
+<78>1 2024-05-14T13:01:10.738056Z PROXY-BO-01 CRON 233305 - - (sysstat) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+<86>1 2024-05-14T13:01:23.695385Z PROXY-BO-01 sshd 232355 - - pam_unix(sshd:session): session closed for user nina.kapoor
+<30>1 2024-05-14T13:02:14.149243Z PROXY-BO-01 dbus-daemon 38165 - - [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.175'
+<30>1 2024-05-14T13:02:23.062152Z PROXY-BO-01 polkitd 22038 - - Operator of unix-process:233733:60854108 successfully authenticated as unix-user:deploy to gain TEMPORARY authorization for action org.freedesktop.NetworkManager.settings.modify.system for system-bus-name::1.176 [/usr/bin/nmcli] (owned by unix-user:deploy)
+<30>1 2024-05-14T13:02:26.399532Z PROXY-BO-01 dbus-daemon 38165 - - [system] Activating via systemd: service name='org.freedesktop.login1' unit='dbus-org.freedesktop.login1.service' requested by ':1.177'
+<30>1 2024-05-14T13:02:26.875320Z PROXY-BO-01 dbus-daemon 38165 - - [system] Activating via systemd: service name='org.freedesktop.login1' unit='dbus-org.freedesktop.login1.service' requested by ':1.179'
+<30>1 2024-05-14T13:02:31.845063Z PROXY-BO-01 systemd-resolved 38457 - - Grace period over, resuming full feature set UDP+EDNS0 for DNS server 10.44.20.10 after probe 505411.
+<30>1 2024-05-14T13:02:37.295718Z PROXY-BO-01 systemd-resolved 38457 - - Transaction 587190 switched to TCP with advertised UDP packet size 1232.
+<30>1 2024-05-14T13:04:20.612450Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 99.0M, max 256M, 157.0M free.
+<30>1 2024-05-14T13:04:51.564521Z PROXY-BO-01 dbus-daemon 38165 - - [system] Successfully activated service 'org.freedesktop.resolve1' for ':1.182'
+<30>1 2024-05-14T13:06:17.521904Z PROXY-BO-01 irqbalance 36974 - - NUMA node 1: balancing pass complete, 1 IRQs moved
+<30>1 2024-05-14T13:06:26.336698Z PROXY-BO-01 systemd-resolved 38457 - - Using degraded feature set TCP instead of UDP+EDNS0 for DNS server 10.44.20.10 after transaction 170343.
+<30>1 2024-05-14T13:06:52.397322Z PROXY-BO-01 dbus-daemon 38165 - - [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.183'
+<86>1 2024-05-14T13:06:54.860791Z PROXY-BO-01 sshd 232849 - - pam_unix(sshd:session): session closed for user nina.kapoor
+<86>1 2024-05-14T13:09:38.098193Z PROXY-BO-01 sshd 233794 - - Connection from 10.44.10.21 port 49430 on 10.44.20.30 port 22
+<86>1 2024-05-14T13:09:38.271382Z PROXY-BO-01 sshd 233794 - - Accepted publickey for nina.kapoor from 10.44.10.21 port 49430 ssh2: RSA SHA256:I6R8LgS4QBiNfbhL8lG+e+w2LxApLFPmxstA7cndG49
+<86>1 2024-05-14T13:09:38.396536Z PROXY-BO-01 sshd 233794 - - pam_unix(sshd:session): session opened for user nina.kapoor(uid=4614) by (uid=0)
+<86>1 2024-05-14T13:09:39.040765Z PROXY-BO-01 systemd-logind 38189 - - New session 81229 of user nina.kapoor.
+<30>1 2024-05-14T13:10:10.402038Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 99.9M, max 256M, 156.1M free.
+<30>1 2024-05-14T13:11:34.976494Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 106.3M, max 256M, 149.7M free.
+<30>1 2024-05-14T13:11:50.241920Z PROXY-BO-01 dbus-daemon 38165 - - [system] Successfully activated service 'org.freedesktop.resolve1' for ':1.185'
+<86>1 2024-05-14T13:14:50.464458Z PROXY-BO-01 sshd 233810 - - Connection from 10.44.10.23 port 56322 on 10.44.20.30 port 22
+<86>1 2024-05-14T13:14:50.726584Z PROXY-BO-01 sshd 233810 - - Accepted publickey for nina.kapoor from 10.44.10.23 port 56322 ssh2: ECDSA SHA256:WBU1RhY4IHsirI12yz4K1P70WPX4FfE+1y45sOa9EBl
+<86>1 2024-05-14T13:14:50.776815Z PROXY-BO-01 sshd 233810 - - pam_unix(sshd:session): session opened for user nina.kapoor(uid=4614) by (uid=0)
+<86>1 2024-05-14T13:14:51.212982Z PROXY-BO-01 systemd-logind 38189 - - New session 81270 of user nina.kapoor.
+<30>1 2024-05-14T13:16:28.975356Z PROXY-BO-01 rsyslogd 38115 - - imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' fd 38
+<30>1 2024-05-14T13:17:02.736300Z PROXY-BO-01 polkitd 22038 - - Unregistered Authentication Agent for unix-session:43 (system bus name :1.167, object path /org/freedesktop/PolicyKit1/AuthenticationAgent)
+<86>1 2024-05-14T13:17:55.431059Z PROXY-BO-01 sshd 233794 - - pam_unix(sshd:session): session closed for user nina.kapoor
+<30>1 2024-05-14T13:17:57.058353Z PROXY-BO-01 polkitd 22038 - - Operator of unix-process:233822:60947636 successfully authenticated as unix-user:admin to gain TEMPORARY authorization for action org.freedesktop.NetworkManager.settings.modify.system for system-bus-name::1.186 [/usr/sbin/NetworkManager] (owned by unix-user:root)
+<86>1 2024-05-14T13:18:16.478642Z PROXY-BO-01 sudo 233903 - - pam_unix(sudo:session): session opened for user admin(uid=1001) by (uid=0)
+<30>1 2024-05-14T13:18:22.310925Z PROXY-BO-01 snapd 38409 - - daemon.go:460: gracefully waiting for hook microk8s.configure
+<86>1 2024-05-14T13:18:22.345642Z PROXY-BO-01 systemd-logind 38189 - - New session 81299 of user admin.
+<30>1 2024-05-14T13:19:40.044065Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 110.1M, max 256M, 145.9M free.
+<30>1 2024-05-14T13:19:56.374611Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 115.9M, max 256M, 140.1M free.
+<30>1 2024-05-14T13:20:24.771785Z PROXY-BO-01 snapd 38409 - - taskrunner.go:271: change 1407 task 8 done for core20
+<30>1 2024-05-14T13:20:26.636473Z PROXY-BO-01 systemd-resolved 38457 - - Grace period over, resuming full feature set UDP+EDNS0 for DNS server 10.44.20.10 after probe 247998.
+<30>1 2024-05-14T13:23:52.409033Z PROXY-BO-01 irqbalance 36974 - - IRQ 122 classified for CPU 3 balancing on nvme0q1
+<86>1 2024-05-14T13:23:54.061114Z PROXY-BO-01 sudo 233962 - - pam_unix(sudo:session): session opened for user root(uid=0) by admin(uid=1001)
+<85>1 2024-05-14T13:23:54.441114Z PROXY-BO-01 sudo 233962 - - admin : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/usr/bin/iostat -xz 1 3
+<86>1 2024-05-14T13:23:55.143114Z PROXY-BO-01 sudo 233962 - - pam_unix(sudo:session): session closed for user root
+<30>1 2024-05-14T13:25:05.634257Z PROXY-BO-01 systemd-resolved 38457 - - Grace period over, resuming full feature set UDP+EDNS0 for DNS server 10.44.20.10 after probe 498291.
+<30>1 2024-05-14T13:25:10.345045Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 118.9M, max 256M, 137.1M free.
+<30>1 2024-05-14T13:27:03.608028Z PROXY-BO-01 systemd-resolved 38457 - - Grace period over, resuming full feature set UDP+EDNS0 for DNS server 10.44.20.10 after probe 661326.
+<30>1 2024-05-14T13:27:03.829462Z PROXY-BO-01 rsyslogd 38115 - - configuration file /etc/rsyslog.conf reloaded, checksum 97195
+<30>1 2024-05-14T13:28:11.339901Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 121.9M, max 256M, 134.1M free.
+<30>1 2024-05-14T13:29:50.379035Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 124.1M, max 256M, 131.9M free.
+<30>1 2024-05-14T13:29:56.760784Z PROXY-BO-01 dbus-daemon 38165 - - [system] Successfully activated service 'org.freedesktop.locale1' for ':1.188'
+<30>1 2024-05-14T13:30:38.624719Z PROXY-BO-01 snapd 38409 - - autorefresh.go:540: auto-refresh for core20: no updates found
+<30>1 2024-05-14T13:30:46.146958Z PROXY-BO-01 polkitd 22038 - - Subject unix-process:233976:61024127 is authorized for action org.freedesktop.NetworkManager.settings.modify.system
+<78>1 2024-05-14T13:31:30.992514Z PROXY-BO-01 CRON 233823 - - (sysstat) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+<30>1 2024-05-14T13:32:26.773271Z PROXY-BO-01 polkitd 22038 - - Subject unix-process:234005:61034559 is authorized for action org.freedesktop.login1.reboot
+<30>1 2024-05-14T13:33:30.278946Z PROXY-BO-01 systemd-resolved 38457 - - Grace period over, resuming full feature set UDP+EDNS0 for DNS server 10.44.20.10 after probe 945022.
+<30>1 2024-05-14T13:34:46.992320Z PROXY-BO-01 snapd 38409 - - autorefresh.go:540: auto-refresh for core20: no updates found
+<30>1 2024-05-14T13:34:53.670958Z PROXY-BO-01 polkitd 22038 - - Registered Authentication Agent for unix-session:39 (system bus name :1.193 [/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+<30>1 2024-05-14T13:35:08.144055Z PROXY-BO-01 rsyslogd 38115 - - main Q: queue local-spool has 30785 messages pending, worker threads 3
+<30>1 2024-05-14T13:35:57.686628Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 130.7M, max 256M, 125.3M free.
+<30>1 2024-05-14T13:36:24.635660Z PROXY-BO-01 polkitd 22038 - - Registered Authentication Agent for unix-session:36 (system bus name :1.195 [/usr/libexec/polkit-gnome-authentication-agent-1], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+<30>1 2024-05-14T13:38:01.335754Z PROXY-BO-01 polkitd 22038 - - Subject unix-process:234096:61068040 is authorized for action org.freedesktop.systemd1.manage-units
+<30>1 2024-05-14T13:38:16.920638Z PROXY-BO-01 snapd 38409 - - stateengine.go:150: state ensure starting change 1410
+<30>1 2024-05-14T13:38:42.534338Z PROXY-BO-01 polkitd 22038 - - Subject unix-process:234199:61071987 is authorized for action org.freedesktop.systemd1.manage-units
+<30>1 2024-05-14T13:40:25.964715Z PROXY-BO-01 irqbalance 36974 - - NUMA node 0: balancing pass complete, 2 IRQs moved
+<30>1 2024-05-14T13:41:33.163243Z PROXY-BO-01 rsyslogd 38115 - - action 'send_remote' resumed after retry 88737, next retry disabled
+<86>1 2024-05-14T13:41:34.991876Z PROXY-BO-01 sshd 233810 - - pam_unix(sshd:session): session closed for user nina.kapoor
+<30>1 2024-05-14T13:42:20.185002Z PROXY-BO-01 dbus-daemon 38165 - - [system] Successfully activated service 'org.freedesktop.resolve1' for ':1.198'
+<30>1 2024-05-14T13:42:31.198294Z PROXY-BO-01 polkitd 22038 - - Unregistered Authentication Agent for unix-session:38 (system bus name :1.174, object path /org/freedesktop/PolicyKit1/AuthenticationAgent)
+<30>1 2024-05-14T13:43:15.234501Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 133.8M, max 256M, 122.2M free.
+<30>1 2024-05-14T13:43:29.372297Z PROXY-BO-01 dbus-daemon 38165 - - [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.199'
+<86>1 2024-05-14T13:44:53.794386Z PROXY-BO-01 sudo 234301 - - pam_unix(sudo:session): session opened for user admin(uid=1001) by (uid=0)
+<30>1 2024-05-14T13:44:55.768255Z PROXY-BO-01 dbus-daemon 38165 - - [system] Activating via systemd: service name='org.freedesktop.login1' unit='dbus-org.freedesktop.login1.service' requested by ':1.200'
+<86>1 2024-05-14T13:44:58.142386Z PROXY-BO-01 systemd-logind 38189 - - New session 81511 of user admin.
+<30>1 2024-05-14T13:45:01.356088Z PROXY-BO-01 rsyslogd 38115 - - configuration file /etc/rsyslog.conf reloaded, checksum 9820
+<30>1 2024-05-14T13:45:02.141149Z PROXY-BO-01 dbus-daemon 38165 - - [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.201'
+<30>1 2024-05-14T13:45:03.348570Z PROXY-BO-01 dbus-daemon 38165 - - [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.204'
+<30>1 2024-05-14T13:46:05.684792Z PROXY-BO-01 dbus-daemon 38165 - - [system] Successfully activated service 'org.freedesktop.locale1' for ':1.206'
+<30>1 2024-05-14T13:46:44.624006Z PROXY-BO-01 polkitd 22038 - - Unregistered Authentication Agent for unix-session:39 (system bus name :1.193, object path /org/freedesktop/PolicyKit1/AuthenticationAgent)
+<30>1 2024-05-14T13:47:12.284634Z PROXY-BO-01 dbus-daemon 38165 - - [system] Activating via systemd: service name='org.freedesktop.login1' unit='dbus-org.freedesktop.login1.service' requested by ':1.208'
+<30>1 2024-05-14T13:47:27.712615Z PROXY-BO-01 rsyslogd 38115 - - action 'dyn_file_cache' resumed after retry 70949, next retry disabled
+<30>1 2024-05-14T13:47:33.232344Z PROXY-BO-01 rsyslogd 38115 - - omfwd: target 10.10.2.30 using disk-assisted queue fwdRule1, checkpoint 66026
+<30>1 2024-05-14T13:47:36.885704Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 140.4M, max 256M, 115.6M free.
+<30>1 2024-05-14T13:47:45.081977Z PROXY-BO-01 snapd 38409 - - stateengine.go:150: state ensure starting change 1415
+<30>1 2024-05-14T13:48:17.066534Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 146.0M, max 256M, 110.0M free.
+<30>1 2024-05-14T13:48:56.357285Z PROXY-BO-01 irqbalance 36974 - - IRQ 45 classified for CPU 1 balancing on virtio0-input
+<30>1 2024-05-14T13:49:20.882131Z PROXY-BO-01 irqbalance 36974 - - IRQ 64 classified for CPU 1 balancing on ahci
+<30>1 2024-05-14T13:49:48.520953Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 147.0M, max 256M, 109.0M free.
+<86>1 2024-05-14T13:58:25.328956Z PROXY-BO-01 sshd 233871 - - Connection from 10.44.10.24 port 62309 on 10.44.20.30 port 22
+<86>1 2024-05-14T13:58:28.266070Z PROXY-BO-01 sshd 233871 - - Accepted password for nina.kapoor from 10.44.10.24 port 62309 ssh2
+<86>1 2024-05-14T13:58:28.327345Z PROXY-BO-01 sshd 233871 - - pam_unix(sshd:session): session opened for user nina.kapoor(uid=4614) by (uid=0)
+<86>1 2024-05-14T13:58:28.936474Z PROXY-BO-01 systemd-logind 38189 - - New session 81619 of user nina.kapoor.
+<30>1 2024-05-14T14:00:03.015140Z PROXY-BO-01 dbus-daemon 38165 - - [system] Successfully activated service 'org.freedesktop.locale1' for ':1.210'
+<30>1 2024-05-14T14:00:03.529488Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 148.5M, max 256M, 107.5M free.
+<78>1 2024-05-14T14:01:03.755775Z PROXY-BO-01 CRON 234384 - - (sysstat) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+<30>1 2024-05-14T14:02:08.772063Z PROXY-BO-01 dbus-daemon 38165 - - [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.213'
+<86>1 2024-05-14T14:03:36.239512Z PROXY-BO-01 sshd 234413 - - Connection from 10.44.10.24 port 55529 on 10.44.20.30 port 22
+<86>1 2024-05-14T14:03:38.169714Z PROXY-BO-01 sshd 234413 - - Accepted password for nina.kapoor from 10.44.10.24 port 55529 ssh2
+<86>1 2024-05-14T14:03:38.316903Z PROXY-BO-01 sshd 234413 - - pam_unix(sshd:session): session opened for user nina.kapoor(uid=4614) by (uid=0)
+<86>1 2024-05-14T14:03:38.829090Z PROXY-BO-01 systemd-logind 38189 - - New session 81661 of user nina.kapoor.
+<86>1 2024-05-14T14:04:53.433386Z PROXY-BO-01 sudo 234301 - - pam_unix(sudo:session): session closed for user admin
+<86>1 2024-05-14T14:04:56.142386Z PROXY-BO-01 systemd-logind 38189 - - Removed session 81511.
+<30>1 2024-05-14T14:05:48.107515Z PROXY-BO-01 dbus-daemon 38165 - - [system] Successfully activated service 'org.freedesktop.locale1' for ':1.216'
+<30>1 2024-05-14T14:06:42.481371Z PROXY-BO-01 irqbalance 36974 - - IRQ 24 affinity hint keeps vector on CPU 2 (virtio0-input)
+<30>1 2024-05-14T14:06:51.016830Z PROXY-BO-01 systemd-resolved 38457 - - Grace period over, resuming full feature set UDP+EDNS0 for DNS server 10.44.20.10 after probe 452248.
+<30>1 2024-05-14T14:06:57.201135Z PROXY-BO-01 polkitd 22038 - - Registered Authentication Agent for unix-session:38 (system bus name :1.217 [/usr/libexec/polkit-gnome-authentication-agent-1], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+<30>1 2024-05-14T14:06:59.510745Z PROXY-BO-01 rsyslogd 38115 - - module imuxsock: worker thread pool adjusted to 2
+<30>1 2024-05-14T14:06:59.759572Z PROXY-BO-01 snapd 38409 - - snapmgr.go:523: refresh candidates checked for core20
+<30>1 2024-05-14T14:06:59.900576Z PROXY-BO-01 polkitd 22038 - - Subject unix-process:234541:61241594 is authorized for action org.freedesktop.systemd1.manage-units
+<30>1 2024-05-14T14:07:00.252951Z PROXY-BO-01 irqbalance 36974 - - IRQ 64 affinity hint keeps vector on CPU 1 (mlx5_comp0)
+<30>1 2024-05-14T14:07:02.536861Z PROXY-BO-01 dbus-daemon 38165 - - [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.220'
+<30>1 2024-05-14T14:07:03.452894Z PROXY-BO-01 systemd-resolved 38457 - - Using degraded feature set TCP instead of UDP+EDNS0 for DNS server 10.44.20.10 after transaction 331684.
+<30>1 2024-05-14T14:08:16.730441Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 150.4M, max 256M, 105.6M free.
+<30>1 2024-05-14T14:09:29.812881Z PROXY-BO-01 snapd 38409 - - snapmgr.go:523: refresh candidates checked for core20
+<30>1 2024-05-14T14:09:32.558990Z PROXY-BO-01 systemd-resolved 38457 - - Using degraded feature set UDP instead of UDP+EDNS0 for DNS server 10.44.20.10 after transaction 410930.
+<30>1 2024-05-14T14:10:16.994834Z PROXY-BO-01 polkitd 22038 - - Subject unix-process:234605:61261273 is authorized for action org.freedesktop.packagekit.system-update
+<86>1 2024-05-14T14:10:42.627841Z PROXY-BO-01 sshd 234609 - - Connection from 10.44.30.10 port 46174 on 10.44.20.30 port 22
+<86>1 2024-05-14T14:10:42.753053Z PROXY-BO-01 sshd 234609 - - Accepted publickey for nina.kapoor from 10.44.30.10 port 46174 ssh2: ECDSA SHA256:NowJ37pssN0mTVkCx4f624JKjNjFMuWooddxAIVegkl
+<86>1 2024-05-14T14:10:42.900188Z PROXY-BO-01 sshd 234609 - - pam_unix(sshd:session): session opened for user nina.kapoor(uid=4614) by (uid=0)
+<86>1 2024-05-14T14:10:43.543423Z PROXY-BO-01 systemd-logind 38189 - - New session 81718 of user nina.kapoor.
+<30>1 2024-05-14T14:11:34.636124Z PROXY-BO-01 irqbalance 36974 - - NUMA node 1: balancing pass complete, 2 IRQs moved
+<30>1 2024-05-14T14:11:44.346244Z PROXY-BO-01 dbus-daemon 38165 - - [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.225'
+<30>1 2024-05-14T14:12:10.877633Z PROXY-BO-01 rsyslogd 38115 - - omfwd: target 10.10.2.30 using disk-assisted queue main, checkpoint 86242
+<30>1 2024-05-14T14:14:15.117060Z PROXY-BO-01 rsyslogd 38115 - - imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' fd 50
+<30>1 2024-05-14T14:15:17.170381Z PROXY-BO-01 irqbalance 36974 - - IRQ 154 affinity hint keeps vector on CPU 3 (mlx5_comp0)
+<30>1 2024-05-14T14:15:18.749312Z PROXY-BO-01 systemd-resolved 38457 - - Transaction 430658 switched to UDP+EDNS0 with advertised UDP packet size 1472.
+<86>1 2024-05-14T14:15:59.969066Z PROXY-BO-01 sudo 234711 - - pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+<85>1 2024-05-14T14:16:00.252066Z PROXY-BO-01 sudo 234711 - - ubuntu : TTY=pts/1 ; PWD=/home/ops ; USER=root ; COMMAND=/usr/bin/lsof -i -P -n
+<86>1 2024-05-14T14:16:00.761066Z PROXY-BO-01 sudo 234711 - - pam_unix(sudo:session): session closed for user root
+<30>1 2024-05-14T14:16:14.838339Z PROXY-BO-01 polkitd 22038 - - Registered Authentication Agent for unix-session:38 (system bus name :1.226 [/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+<86>1 2024-05-14T14:17:07.690481Z PROXY-BO-01 sudo 234771 - - pam_unix(sudo:session): session opened for user root(uid=0) by admin(uid=1001)
+<85>1 2024-05-14T14:17:07.959481Z PROXY-BO-01 sudo 234771 - - admin : TTY=pts/1 ; PWD=/tmp ; USER=root ; COMMAND=/usr/sbin/iptables -L -n -v
+<86>1 2024-05-14T14:17:08.821481Z PROXY-BO-01 sudo 234771 - - pam_unix(sudo:session): session closed for user root
+<30>1 2024-05-14T14:19:27.744630Z PROXY-BO-01 polkitd 22038 - - Operator of unix-process:234777:61316682 successfully authenticated as unix-user:root to gain TEMPORARY authorization for action org.freedesktop.timedate1.set-timezone for system-bus-name::1.229 [/usr/bin/timedatectl] (owned by unix-user:admin)
+<30>1 2024-05-14T14:21:53.383631Z PROXY-BO-01 systemd-resolved 38457 - - Transaction 571343 switched to UDP+EDNS0 with advertised UDP packet size 1232.
+<86>1 2024-05-14T14:22:19.766636Z PROXY-BO-01 sshd 234609 - - pam_unix(sshd:session): session closed for user nina.kapoor
+<30>1 2024-05-14T14:22:32.835147Z PROXY-BO-01 dbus-daemon 38165 - - [system] Successfully activated service 'org.freedesktop.resolve1' for ':1.232'
+<30>1 2024-05-14T14:23:16.272390Z PROXY-BO-01 irqbalance 36974 - - Skipping IRQ 64: banned by affinity mask 00000001 (ens160)
+<30>1 2024-05-14T14:25:01.869049Z PROXY-BO-01 dbus-daemon 38165 - - [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.235'
+<30>1 2024-05-14T14:25:33.018408Z PROXY-BO-01 dbus-daemon 38165 - - [system] Successfully activated service 'org.freedesktop.locale1' for ':1.237'
+<30>1 2024-05-14T14:26:30.908489Z PROXY-BO-01 rsyslogd 38115 - - omfwd: target siem-forwarder using disk-assisted queue main, checkpoint 66088
+<30>1 2024-05-14T14:27:19.951658Z PROXY-BO-01 irqbalance 36974 - - NUMA node 0: balancing pass complete, 1 IRQs moved
+<30>1 2024-05-14T14:27:55.390343Z PROXY-BO-01 snapd 38409 - - snapmgr.go:523: refresh candidates checked for core20
+<30>1 2024-05-14T14:27:55.984342Z PROXY-BO-01 snapd 38409 - - taskrunner.go:271: change 1407 task 7 done for lxd
+<86>1 2024-05-14T14:28:18.262945Z PROXY-BO-01 sudo 234941 - - pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+<85>1 2024-05-14T14:28:18.440945Z PROXY-BO-01 sudo 234941 - - ubuntu : TTY=pts/5 ; PWD=/var/log ; USER=root ; COMMAND=/usr/sbin/service squid status
+<86>1 2024-05-14T14:28:18.784945Z PROXY-BO-01 sudo 234941 - - pam_unix(sudo:session): session closed for user root
+<86>1 2024-05-14T14:29:18.782317Z PROXY-BO-01 sudo 234952 - - pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+<85>1 2024-05-14T14:29:19.157317Z PROXY-BO-01 sudo 234952 - - ubuntu : TTY=pts/3 ; PWD=/etc ; USER=root ; COMMAND=/usr/bin/apt-cache policy openssl
+<86>1 2024-05-14T14:29:19.629317Z PROXY-BO-01 sudo 234952 - - pam_unix(sudo:session): session closed for user root
+<30>1 2024-05-14T14:29:50.465668Z PROXY-BO-01 polkitd 22038 - - Registered Authentication Agent for unix-session:38 (system bus name :1.238 [/usr/libexec/polkit-gnome-authentication-agent-1], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+<30>1 2024-05-14T14:30:29.026153Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 150.9M, max 256M, 105.1M free.
+<78>1 2024-05-14T14:31:06.646479Z PROXY-BO-01 CRON 234959 - - (sysstat) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+<30>1 2024-05-14T14:31:18.806798Z PROXY-BO-01 polkitd 22038 - - Operator of unix-process:234961:61387382 successfully authenticated as unix-user:admin to gain TEMPORARY authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.239 [/usr/bin/systemctl] (owned by unix-user:admin)
+<30>1 2024-05-14T14:31:23.779023Z PROXY-BO-01 polkitd 22038 - - Operator of unix-process:234962:61388082 successfully authenticated as unix-user:admin to gain TEMPORARY authorization for action org.freedesktop.login1.reboot for system-bus-name::1.240 [/usr/bin/systemctl] (owned by unix-user:deploy)
+<30>1 2024-05-14T14:32:09.063200Z PROXY-BO-01 polkitd 22038 - - Operator of unix-process:235006:61392858 successfully authenticated as unix-user:deploy to gain TEMPORARY authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.243 [/usr/bin/loginctl] (owned by unix-user:admin)
+<30>1 2024-05-14T14:33:05.244969Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 153.5M, max 256M, 102.5M free.
+<30>1 2024-05-14T14:33:05.413857Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 154.5M, max 256M, 101.5M free.
+<30>1 2024-05-14T14:33:27.761141Z PROXY-BO-01 polkitd 22038 - - Subject unix-process:235145:61400661 is authorized for action org.freedesktop.systemd1.manage-units
+<30>1 2024-05-14T14:34:03.964529Z PROXY-BO-01 systemd-resolved 38457 - - Grace period over, resuming full feature set UDP+EDNS0 for DNS server 10.44.20.10 after probe 342054.
+<30>1 2024-05-14T14:34:04.821923Z PROXY-BO-01 irqbalance 36974 - - IRQ 16 classified for CPU 1 balancing on ens160
+<30>1 2024-05-14T14:34:54.889105Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 156.7M, max 256M, 99.3M free.
+<30>1 2024-05-14T14:35:02.071580Z PROXY-BO-01 irqbalance 36974 - - IRQ 122 affinity hint keeps vector on CPU 0 (ens160)
+<30>1 2024-05-14T14:35:02.143903Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 163.8M, max 256M, 92.2M free.
+<86>1 2024-05-14T14:35:04.586309Z PROXY-BO-01 sshd 235152 - - Connection from 10.44.10.22 port 65432 on 10.44.20.30 port 22
+<86>1 2024-05-14T14:35:04.855473Z PROXY-BO-01 sshd 235152 - - Accepted publickey for nina.kapoor from 10.44.10.22 port 65432 ssh2: ECDSA SHA256:Yx6vlhdnoCzq7GKy3Qsm5olL31YDPoV6m4EC5zzYdsI
+<86>1 2024-05-14T14:35:04.955647Z PROXY-BO-01 sshd 235152 - - pam_unix(sshd:session): session opened for user nina.kapoor(uid=4614) by (uid=0)
+<86>1 2024-05-14T14:35:05.578842Z PROXY-BO-01 systemd-logind 38189 - - New session 81914 of user nina.kapoor.
+<30>1 2024-05-14T14:35:22.535758Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 166.5M, max 256M, 89.5M free.
+<30>1 2024-05-14T14:35:50.185537Z PROXY-BO-01 dbus-daemon 38165 - - [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.246'
+<30>1 2024-05-14T14:37:22.704392Z PROXY-BO-01 irqbalance 36974 - - IRQ 154 affinity hint keeps vector on CPU 3 (ens160)
+<86>1 2024-05-14T14:37:56.968665Z PROXY-BO-01 sshd 233871 - - pam_unix(sshd:session): session closed for user nina.kapoor
+<30>1 2024-05-14T14:39:03.120311Z PROXY-BO-01 polkitd 22038 - - Registered Authentication Agent for unix-session:36 (system bus name :1.247 [/usr/libexec/polkit-gnome-authentication-agent-1], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+<30>1 2024-05-14T14:40:04.703205Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 171.5M, max 256M, 84.5M free.
+<30>1 2024-05-14T14:40:06.638705Z PROXY-BO-01 rsyslogd 38115 - - action 'local_file' resumed after retry 95820, next retry disabled
+<30>1 2024-05-14T14:41:30.423491Z PROXY-BO-01 polkitd 22038 - - Operator of unix-process:235393:61448925 successfully authenticated as unix-user:root to gain TEMPORARY authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.249 [/usr/bin/systemctl] (owned by unix-user:root)
+<30>1 2024-05-14T14:42:42.722586Z PROXY-BO-01 polkitd 22038 - - Operator of unix-process:235396:61456248 successfully authenticated as unix-user:root to gain TEMPORARY authorization for action org.freedesktop.timedate1.set-timezone for system-bus-name::1.250 [/usr/bin/timedatectl] (owned by unix-user:admin)
+<86>1 2024-05-14T14:43:14.404512Z PROXY-BO-01 sudo 235397 - - pam_unix(sudo:session): session opened for user admin(uid=1001) by (uid=0)
+<30>1 2024-05-14T14:43:14.760663Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 173.2M, max 256M, 82.8M free.
+<30>1 2024-05-14T14:43:20.770385Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 174.0M, max 256M, 82.0M free.
+<86>1 2024-05-14T14:43:21.021512Z PROXY-BO-01 systemd-logind 38189 - - New session 81980 of user admin.
+<30>1 2024-05-14T14:43:43.991588Z PROXY-BO-01 polkitd 22038 - - Unregistered Authentication Agent for unix-session:36 (system bus name :1.195, object path /org/freedesktop/PolicyKit1/AuthenticationAgent)
+<30>1 2024-05-14T14:44:01.895698Z PROXY-BO-01 irqbalance 36974 - - IRQ 154 affinity hint keeps vector on CPU 0 (ahci)
+<30>1 2024-05-14T14:44:03.169975Z PROXY-BO-01 rsyslogd 38115 - - configuration reload completed after SIGHUP, reload id 56888
+<30>1 2024-05-14T14:44:32.969111Z PROXY-BO-01 systemd-resolved 38457 - - Using degraded feature set UDP instead of UDP+EDNS0 for DNS server 10.44.20.10 after transaction 292572.
+<30>1 2024-05-14T14:44:51.057457Z PROXY-BO-01 rsyslogd 38115 - - main Q: queue main has 29506 messages pending, worker threads 1
+<30>1 2024-05-14T14:44:54.713912Z PROXY-BO-01 systemd-resolved 38457 - - Transaction 580655 switched to UDP with advertised UDP packet size 1472.
+<30>1 2024-05-14T14:45:28.110629Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 180.7M, max 256M, 75.3M free.
+<30>1 2024-05-14T14:46:14.020579Z PROXY-BO-01 polkitd 22038 - - Unregistered Authentication Agent for unix-session:38 (system bus name :1.217, object path /org/freedesktop/PolicyKit1/AuthenticationAgent)
+<30>1 2024-05-14T14:48:27.660183Z PROXY-BO-01 polkitd 22038 - - Unregistered Authentication Agent for unix-session:38 (system bus name :1.226, object path /org/freedesktop/PolicyKit1/AuthenticationAgent)
+<30>1 2024-05-14T14:48:40.803790Z PROXY-BO-01 systemd-resolved 38457 - - Transaction 562282 switched to TCP with advertised UDP packet size 1472.
+<30>1 2024-05-14T14:48:41.737416Z PROXY-BO-01 dbus-daemon 38165 - - [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.253'
+<30>1 2024-05-14T14:49:43.375223Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 183.9M, max 256M, 72.1M free.
+<30>1 2024-05-14T14:49:56.679572Z PROXY-BO-01 dbus-daemon 38165 - - [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.256'
+<30>1 2024-05-14T14:50:06.458022Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 133.3M, max 256M, 122.7M free.
+<86>1 2024-05-14T14:51:23.768328Z PROXY-BO-01 sudo 235656 - - pam_unix(sudo:session): session opened for user root(uid=0) by svc_app(uid=2214)
+<85>1 2024-05-14T14:51:24.110328Z PROXY-BO-01 sudo 235656 - - svc_app : TTY=pts/5 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/lsblk
+<86>1 2024-05-14T14:51:24.677328Z PROXY-BO-01 sudo 235656 - - pam_unix(sudo:session): session closed for user root
+<30>1 2024-05-14T14:52:06.682848Z PROXY-BO-01 snapd 38409 - - taskrunner.go:271: change 1407 task 7 done for core22
+<30>1 2024-05-14T14:53:52.416834Z PROXY-BO-01 polkitd 22038 - - Subject unix-process:235729:61523115 is authorized for action org.freedesktop.timedate1.set-timezone
+<30>1 2024-05-14T14:55:13.518577Z PROXY-BO-01 rsyslogd 38115 - - action 'fwd_core' resumed after retry 94569, next retry disabled
+<30>1 2024-05-14T14:55:15.006710Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 134.3M, max 256M, 121.7M free.
+<30>1 2024-05-14T15:00:10.685880Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 136.0M, max 256M, 120.0M free.
+<30>1 2024-05-14T15:00:46.942289Z PROXY-BO-01 dbus-daemon 38165 - - [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.260'
+<78>1 2024-05-14T15:01:39.564817Z PROXY-BO-01 CRON 235735 - - (sysstat) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+<86>1 2024-05-14T15:01:56.600974Z PROXY-BO-01 sshd 234413 - - pam_unix(sshd:session): session closed for user nina.kapoor
+<30>1 2024-05-14T15:03:00.408109Z PROXY-BO-01 polkitd 22038 - - Subject unix-process:235801:61577890 is authorized for action org.freedesktop.packagekit.system-update
+<30>1 2024-05-14T15:03:30.599990Z PROXY-BO-01 snapd 38409 - - autorefresh.go:540: auto-refresh for lxd: no updates found
+<86>1 2024-05-14T15:04:19.065355Z PROXY-BO-01 sshd 235152 - - pam_unix(sshd:session): session closed for user nina.kapoor
+<30>1 2024-05-14T15:04:20.771276Z PROXY-BO-01 rsyslogd 38115 - - main Q: queue fwdRule1 has 14053 messages pending, worker threads 1
+<86>1 2024-05-14T15:05:16.021866Z PROXY-BO-01 sshd 235834 - - Connection from 10.44.10.24 port 50950 on 10.44.20.30 port 22
+<86>1 2024-05-14T15:05:16.326066Z PROXY-BO-01 sshd 235834 - - Accepted publickey for nina.kapoor from 10.44.10.24 port 50950 ssh2: ECDSA SHA256:5dZozoxPkzWB/LF1A4hQyNwnINPrzKoIcX+DavYxZYV
+<86>1 2024-05-14T15:05:16.501289Z PROXY-BO-01 sshd 235834 - - pam_unix(sshd:session): session opened for user nina.kapoor(uid=4614) by (uid=0)
+<86>1 2024-05-14T15:05:16.985445Z PROXY-BO-01 systemd-logind 38189 - - New session 82155 of user nina.kapoor.
+<30>1 2024-05-14T15:05:58.621773Z PROXY-BO-01 rsyslogd 38115 - - action 'local_file' resumed after retry 95483, next retry disabled
+<30>1 2024-05-14T15:07:36.159509Z PROXY-BO-01 snapd 38409 - - stateengine.go:150: state ensure starting change 1411
+<30>1 2024-05-14T15:07:36.287680Z PROXY-BO-01 dbus-daemon 38165 - - [system] Successfully activated service 'org.freedesktop.locale1' for ':1.264'
+<30>1 2024-05-14T15:07:36.718890Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 139.2M, max 256M, 116.8M free.
+<86>1 2024-05-14T15:08:38.547799Z PROXY-BO-01 sudo 235894 - - pam_unix(sudo:session): session opened for user root(uid=0) by deploy(uid=1002)
+<85>1 2024-05-14T15:08:38.734799Z PROXY-BO-01 sudo 235894 - - deploy : TTY=pts/0 ; PWD=/srv/app ; USER=root ; COMMAND=/usr/bin/free -m
+<86>1 2024-05-14T15:08:38.925799Z PROXY-BO-01 sudo 235894 - - pam_unix(sudo:session): session closed for user root
+<30>1 2024-05-14T15:08:50.592117Z PROXY-BO-01 irqbalance 36974 - - NUMA node 1: balancing pass complete, 2 IRQs moved
+<30>1 2024-05-14T15:09:02.367624Z PROXY-BO-01 polkitd 22038 - - Registered Authentication Agent for unix-session:39 (system bus name :1.265 [/usr/libexec/kf5/polkit-kde-authentication-agent-1], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+<30>1 2024-05-14T15:10:54.406005Z PROXY-BO-01 dbus-daemon 38165 - - [system] Successfully activated service 'org.freedesktop.resolve1' for ':1.267'
+<86>1 2024-05-14T15:11:01.120273Z PROXY-BO-01 sshd 235834 - - pam_unix(sshd:session): session closed for user nina.kapoor
+<30>1 2024-05-14T15:13:07.212872Z PROXY-BO-01 snapd 38409 - - autorefresh.go:540: auto-refresh for core22: no updates found
+<30>1 2024-05-14T15:14:45.062202Z PROXY-BO-01 dbus-daemon 38165 - - [system] Successfully activated service 'org.freedesktop.resolve1' for ':1.268'
+<30>1 2024-05-14T15:15:50.752309Z PROXY-BO-01 dbus-daemon 38165 - - [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.270'
+<30>1 2024-05-14T15:16:24.935129Z PROXY-BO-01 snapd 38409 - - taskrunner.go:271: change 1407 task 5 done for snapd-desktop-integration
+<30>1 2024-05-14T15:17:12.012455Z PROXY-BO-01 polkitd 22038 - - Unregistered Authentication Agent for unix-session:38 (system bus name :1.238, object path /org/freedesktop/PolicyKit1/AuthenticationAgent)
+<30>1 2024-05-14T15:17:21.670028Z PROXY-BO-01 systemd-resolved 38457 - - Grace period over, resuming full feature set UDP+EDNS0 for DNS server 10.44.20.10 after probe 326960.
+<30>1 2024-05-14T15:17:36.694225Z PROXY-BO-01 dbus-daemon 38165 - - [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.272'
+<30>1 2024-05-14T15:18:32.956951Z PROXY-BO-01 polkitd 22038 - - Unregistered Authentication Agent for unix-session:36 (system bus name :1.247, object path /org/freedesktop/PolicyKit1/AuthenticationAgent)
+<30>1 2024-05-14T15:18:55.002553Z PROXY-BO-01 rsyslogd 38115 - - action 'dyn_file_cache' resumed after retry 35984, next retry disabled
+<30>1 2024-05-14T15:20:53.731323Z PROXY-BO-01 dbus-daemon 38165 - - [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.273'
+<30>1 2024-05-14T15:21:46.434779Z PROXY-BO-01 systemd-resolved 38457 - - Flushed negative cache scope enp0s3 after DNS server 10.44.20.10 changed features.
+<30>1 2024-05-14T15:24:31.363506Z PROXY-BO-01 dbus-daemon 38165 - - [system] Successfully activated service 'org.freedesktop.resolve1' for ':1.275'
+<30>1 2024-05-14T15:24:52.585398Z PROXY-BO-01 systemd-resolved 38457 - - Transaction 282430 switched to TCP with advertised UDP packet size 1472.
+<30>1 2024-05-14T15:24:57.446103Z PROXY-BO-01 rsyslogd 38115 - - imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' fd 60
+<30>1 2024-05-14T15:25:01.240539Z PROXY-BO-01 polkitd 22038 - - Registered Authentication Agent for unix-session:43 (system bus name :1.276 [/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+<30>1 2024-05-14T15:25:30.781467Z PROXY-BO-01 rsyslogd 38115 - - main Q: queue main has 82007 messages pending, worker threads 1
+<30>1 2024-05-14T15:25:32.677955Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 143.8M, max 256M, 112.2M free.
+<30>1 2024-05-14T15:25:58.065239Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 146.9M, max 256M, 109.1M free.
+<30>1 2024-05-14T15:26:11.253440Z PROXY-BO-01 irqbalance 36974 - - IRQ 122 classified for CPU 2 balancing on ens160
+<30>1 2024-05-14T15:26:13.072782Z PROXY-BO-01 systemd-resolved 38457 - - Transaction 421320 switched to UDP+EDNS0 with advertised UDP packet size 1472.
+<30>1 2024-05-14T15:26:14.898224Z PROXY-BO-01 snapd 38409 - - taskrunner.go:271: change 1407 task 6 done for microk8s
+<30>1 2024-05-14T15:26:54.717535Z PROXY-BO-01 rsyslogd 38115 - - action 'send_remote' resumed after retry 39988, next retry disabled
+<30>1 2024-05-14T15:27:43.125642Z PROXY-BO-01 dbus-daemon 38165 - - [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.279'
+<86>1 2024-05-14T15:28:44.804014Z PROXY-BO-01 sudo 236126 - - pam_unix(sudo:session): session opened for user root(uid=0) by admin(uid=1001)
+<85>1 2024-05-14T15:28:44.886014Z PROXY-BO-01 sudo 236126 - - admin : TTY=pts/1 ; PWD=/home/deploy ; USER=root ; COMMAND=/bin/systemctl status squid --no-pager
+<86>1 2024-05-14T15:28:45.423014Z PROXY-BO-01 sudo 236126 - - pam_unix(sudo:session): session closed for user root
+<30>1 2024-05-14T15:31:07.961710Z PROXY-BO-01 irqbalance 36974 - - IRQ 64 classified for CPU 0 balancing on ens160
+<78>1 2024-05-14T15:31:40.767033Z PROXY-BO-01 CRON 235753 - - (sysstat) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+<30>1 2024-05-14T15:31:51.611254Z PROXY-BO-01 systemd-resolved 38457 - - Using degraded feature set TCP instead of UDP+EDNS0 for DNS server 10.44.20.10 after transaction 933558.
+<30>1 2024-05-14T15:32:10.256155Z PROXY-BO-01 dbus-daemon 38165 - - [system] Successfully activated service 'org.freedesktop.resolve1' for ':1.281'
+<86>1 2024-05-14T15:32:20.567436Z PROXY-BO-01 sudo 236154 - - pam_unix(sudo:session): session opened for user ubuntu(uid=1000) by (uid=0)
+<30>1 2024-05-14T15:32:25.056900Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 152.0M, max 256M, 104.0M free.
+<86>1 2024-05-14T15:32:25.343436Z PROXY-BO-01 systemd-logind 38189 - - New session 82372 of user ubuntu.
+<86>1 2024-05-14T15:32:27.968452Z PROXY-BO-01 sudo 236179 - - pam_unix(sudo:session): session opened for user root(uid=0) by ops(uid=6366)
+<85>1 2024-05-14T15:32:28.177452Z PROXY-BO-01 sudo 236179 - - ops : TTY=pts/5 ; PWD=/srv/app ; USER=root ; COMMAND=/usr/sbin/ss -s
+<86>1 2024-05-14T15:32:28.426452Z PROXY-BO-01 sudo 236179 - - pam_unix(sudo:session): session closed for user root
+<30>1 2024-05-14T15:32:59.731664Z PROXY-BO-01 polkitd 22038 - - Operator of unix-process:236213:61757443 successfully authenticated as unix-user:deploy to gain TEMPORARY authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.282 [/usr/bin/systemctl] (owned by unix-user:admin)
+<30>1 2024-05-14T15:33:45.558995Z PROXY-BO-01 systemd-resolved 38457 - - Grace period over, resuming full feature set UDP+EDNS0 for DNS server 10.44.20.10 after probe 453692.
+<30>1 2024-05-14T15:33:47.647127Z PROXY-BO-01 dbus-daemon 38165 - - [system] Successfully activated service 'org.freedesktop.locale1' for ':1.283'
+<30>1 2024-05-14T15:33:50.473851Z PROXY-BO-01 snapd 38409 - - taskrunner.go:271: change 1407 task 9 done for lxd
+<30>1 2024-05-14T15:34:35.162902Z PROXY-BO-01 dbus-daemon 38165 - - [system] Successfully activated service 'org.freedesktop.resolve1' for ':1.285'
+<86>1 2024-05-14T15:36:09.569384Z PROXY-BO-01 sshd 235841 - - Connection from 10.44.10.24 port 55253 on 10.44.20.30 port 22
+<86>1 2024-05-14T15:36:11.687580Z PROXY-BO-01 sshd 235841 - - Accepted password for nina.kapoor from 10.44.10.24 port 55253 ssh2
+<86>1 2024-05-14T15:36:11.819816Z PROXY-BO-01 sshd 235841 - - pam_unix(sshd:session): session opened for user nina.kapoor(uid=4614) by (uid=0)
+<86>1 2024-05-14T15:36:12.575992Z PROXY-BO-01 systemd-logind 38189 - - New session 82403 of user nina.kapoor.
+<86>1 2024-05-14T15:36:17.582414Z PROXY-BO-01 sudo 236214 - - pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+<85>1 2024-05-14T15:36:17.757414Z PROXY-BO-01 sudo 236214 - - ubuntu : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/find /etc/systemd/system -maxdepth 2 -type l
+<86>1 2024-05-14T15:36:18.522414Z PROXY-BO-01 sudo 236214 - - pam_unix(sudo:session): session closed for user root
+<30>1 2024-05-14T15:38:02.409261Z PROXY-BO-01 systemd-resolved 38457 - - Using degraded feature set UDP instead of UDP+EDNS0 for DNS server 10.44.20.10 after transaction 540430.
+<30>1 2024-05-14T15:38:11.029641Z PROXY-BO-01 dbus-daemon 38165 - - [system] Successfully activated service 'org.freedesktop.locale1' for ':1.286'
+<30>1 2024-05-14T15:38:13.814571Z PROXY-BO-01 dbus-daemon 38165 - - [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.289'
+<86>1 2024-05-14T15:38:14.126512Z PROXY-BO-01 sudo 235397 - - pam_unix(sudo:session): session closed for user admin
+<86>1 2024-05-14T15:38:16.021512Z PROXY-BO-01 systemd-logind 38189 - - Removed session 81980.
+<30>1 2024-05-14T15:38:53.879220Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 158.8M, max 256M, 97.2M free.
+<30>1 2024-05-14T15:41:21.718299Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 160.8M, max 256M, 95.2M free.
+<30>1 2024-05-14T15:41:45.315425Z PROXY-BO-01 systemd-resolved 38457 - - Using degraded feature set UDP instead of UDP+EDNS0 for DNS server 10.44.20.10 after transaction 350899.
+<30>1 2024-05-14T15:42:31.533659Z PROXY-BO-01 dbus-daemon 38165 - - [system] Successfully activated service 'org.freedesktop.locale1' for ':1.290'
+<86>1 2024-05-14T15:44:19.309259Z PROXY-BO-01 sudo 236223 - - pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+<85>1 2024-05-14T15:44:19.573259Z PROXY-BO-01 sudo 236223 - - ubuntu : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/systemd-analyze blame
+<86>1 2024-05-14T15:44:19.748259Z PROXY-BO-01 sudo 236223 - - pam_unix(sudo:session): session closed for user root
+<30>1 2024-05-14T15:44:24.094226Z PROXY-BO-01 dbus-daemon 38165 - - [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.291'
+<30>1 2024-05-14T15:44:49.547923Z PROXY-BO-01 dbus-daemon 38165 - - [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.292'
+<30>1 2024-05-14T15:46:02.185361Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 167.3M, max 256M, 88.7M free.
+<30>1 2024-05-14T15:46:10.534629Z PROXY-BO-01 irqbalance 36974 - - Skipping IRQ 32: banned by affinity mask 00000008 (mlx5_comp0)
+<30>1 2024-05-14T15:46:15.435196Z PROXY-BO-01 dbus-daemon 38165 - - [system] Successfully activated service 'org.freedesktop.locale1' for ':1.295'
+<30>1 2024-05-14T15:46:47.450060Z PROXY-BO-01 polkitd 22038 - - Unregistered Authentication Agent for unix-session:39 (system bus name :1.265, object path /org/freedesktop/PolicyKit1/AuthenticationAgent)
+<30>1 2024-05-14T15:48:23.208442Z PROXY-BO-01 polkitd 22038 - - Operator of unix-process:236282:61850265 successfully authenticated as unix-user:root to gain TEMPORARY authorization for action org.freedesktop.NetworkManager.settings.modify.system for system-bus-name::1.296 [/usr/bin/nmcli] (owned by unix-user:deploy)
+<30>1 2024-05-14T15:48:25.421971Z PROXY-BO-01 snapd 38409 - - snapmgr.go:523: refresh candidates checked for core20
+<30>1 2024-05-14T15:48:29.448589Z PROXY-BO-01 dbus-daemon 38165 - - [system] Activating via systemd: service name='org.freedesktop.login1' unit='dbus-org.freedesktop.login1.service' requested by ':1.299'
+<30>1 2024-05-14T15:49:09.964256Z PROXY-BO-01 rsyslogd 38115 - - main Q: queue fwdRule1 has 92539 messages pending, worker threads 1
+<86>1 2024-05-14T15:49:41.231619Z PROXY-BO-01 sshd 236326 - - Connection from 10.44.20.20 port 52871 on 10.44.20.30 port 22
+<86>1 2024-05-14T15:49:41.647834Z PROXY-BO-01 sshd 236326 - - Accepted publickey for nina.kapoor from 10.44.20.20 port 52871 ssh2: ED25519 SHA256:YBcWikEjdj6qrpAqalUWz+xMD7gJqRQ/ahdmLp4lGba
+<86>1 2024-05-14T15:49:41.723053Z PROXY-BO-01 sshd 236326 - - pam_unix(sshd:session): session opened for user nina.kapoor(uid=4614) by (uid=0)
+<86>1 2024-05-14T15:49:42.212193Z PROXY-BO-01 systemd-logind 38189 - - New session 82522 of user nina.kapoor.
+<86>1 2024-05-14T15:49:43.596892Z PROXY-BO-01 sshd 236336 - - Connection from 10.44.10.24 port 54400 on 10.44.20.30 port 22
+<86>1 2024-05-14T15:49:46.437064Z PROXY-BO-01 sshd 236336 - - Accepted password for nina.kapoor from 10.44.10.24 port 54400 ssh2
+<86>1 2024-05-14T15:49:46.605259Z PROXY-BO-01 sshd 236336 - - pam_unix(sshd:session): session opened for user nina.kapoor(uid=4614) by (uid=0)
+<86>1 2024-05-14T15:49:47.288486Z PROXY-BO-01 systemd-logind 38189 - - New session 82524 of user nina.kapoor.
+<30>1 2024-05-14T15:50:16.998042Z PROXY-BO-01 polkitd 22038 - - Subject unix-process:236335:61861591 is authorized for action org.freedesktop.NetworkManager.settings.modify.system
+<30>1 2024-05-14T15:50:18.636629Z PROXY-BO-01 polkitd 22038 - - Registered Authentication Agent for unix-session:43 (system bus name :1.301 [/usr/libexec/kf5/polkit-kde-authentication-agent-1], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+<30>1 2024-05-14T15:50:19.236565Z PROXY-BO-01 dbus-daemon 38165 - - [system] Activating via systemd: service name='org.freedesktop.login1' unit='dbus-org.freedesktop.login1.service' requested by ':1.304'
+<30>1 2024-05-14T15:50:36.214370Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 169.7M, max 256M, 86.3M free.
+<30>1 2024-05-14T15:51:06.237338Z PROXY-BO-01 polkitd 22038 - - Registered Authentication Agent for unix-session:36 (system bus name :1.307 [/usr/libexec/polkit-gnome-authentication-agent-1], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+<30>1 2024-05-14T16:00:39.689313Z PROXY-BO-01 polkitd 22038 - - Registered Authentication Agent for unix-session:39 (system bus name :1.310 [/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+<30>1 2024-05-14T16:01:02.777371Z PROXY-BO-01 polkitd 22038 - - Subject unix-process:236443:61926281 is authorized for action org.freedesktop.timedate1.set-timezone
+<30>1 2024-05-14T16:01:05.663607Z PROXY-BO-01 polkitd 22038 - - Unregistered Authentication Agent for unix-session:43 (system bus name :1.276, object path /org/freedesktop/PolicyKit1/AuthenticationAgent)
+<78>1 2024-05-14T16:01:21.183957Z PROXY-BO-01 CRON 236410 - - (sysstat) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+<30>1 2024-05-14T16:01:39.726415Z PROXY-BO-01 dbus-daemon 38165 - - [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.313'
+<86>1 2024-05-14T16:02:35.526613Z PROXY-BO-01 sshd 236421 - - Connection from 10.44.10.24 port 54615 on 10.44.20.30 port 22
+<86>1 2024-05-14T16:02:37.679848Z PROXY-BO-01 sshd 236421 - - Accepted password for nina.kapoor from 10.44.10.24 port 54615 ssh2
+<86>1 2024-05-14T16:02:37.845016Z PROXY-BO-01 sshd 236421 - - pam_unix(sshd:session): session opened for user nina.kapoor(uid=4614) by (uid=0)
+<86>1 2024-05-14T16:02:38.381229Z PROXY-BO-01 systemd-logind 38189 - - New session 82612 of user nina.kapoor.
+<86>1 2024-05-14T16:02:45.922705Z PROXY-BO-01 sshd 236336 - - pam_unix(sshd:session): session closed for user nina.kapoor
+<30>1 2024-05-14T16:04:36.082793Z PROXY-BO-01 irqbalance 36974 - - IRQ 24 classified for CPU 3 balancing on nvme0q1
+<86>1 2024-05-14T16:05:49.123519Z PROXY-BO-01 sshd 236326 - - pam_unix(sshd:session): session closed for user nina.kapoor
+<30>1 2024-05-14T16:06:05.748314Z PROXY-BO-01 rsyslogd 38115 - - configuration file /etc/rsyslog.conf reloaded, checksum 70656
+<30>1 2024-05-14T16:09:09.821771Z PROXY-BO-01 dbus-daemon 38165 - - [system] Successfully activated service 'org.freedesktop.resolve1' for ':1.315'
+<30>1 2024-05-14T16:09:12.913596Z PROXY-BO-01 systemd-resolved 38457 - - Using degraded feature set TCP instead of UDP+EDNS0 for DNS server 10.44.20.10 after transaction 739323.
+<30>1 2024-05-14T16:09:21.356168Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 174.0M, max 256M, 82.0M free.
+<30>1 2024-05-14T16:09:22.141011Z PROXY-BO-01 dbus-daemon 38165 - - [system] Successfully activated service 'org.freedesktop.resolve1' for ':1.318'
+<30>1 2024-05-14T16:09:41.221565Z PROXY-BO-01 dbus-daemon 38165 - - [system] Successfully activated service 'org.freedesktop.locale1' for ':1.321'
+<86>1 2024-05-14T16:09:42.602978Z PROXY-BO-01 sudo 236530 - - pam_unix(sudo:session): session opened for user root(uid=0) by deploy(uid=1002)
+<85>1 2024-05-14T16:09:42.834978Z PROXY-BO-01 sudo 236530 - - deploy : TTY=pts/3 ; PWD=/home/ops ; USER=root ; COMMAND=/usr/bin/apt-get -s upgrade
+<30>1 2024-05-14T16:09:43.286159Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 180.0M, max 256M, 76.0M free.
+<86>1 2024-05-14T16:09:43.367978Z PROXY-BO-01 sudo 236530 - - pam_unix(sudo:session): session closed for user root
+<30>1 2024-05-14T16:09:48.437512Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 181.3M, max 256M, 74.7M free.
+<30>1 2024-05-14T16:09:57.763381Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 183.8M, max 256M, 72.2M free.
+<30>1 2024-05-14T16:10:17.248848Z PROXY-BO-01 polkitd 22038 - - Unregistered Authentication Agent for unix-session:43 (system bus name :1.301, object path /org/freedesktop/PolicyKit1/AuthenticationAgent)
+<30>1 2024-05-14T16:11:15.147388Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 184.8M, max 256M, 71.2M free.
+<30>1 2024-05-14T16:11:32.822017Z PROXY-BO-01 polkitd 22038 - - Operator of unix-process:236616:61989171 successfully authenticated as unix-user:root to gain TEMPORARY authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.322 [/usr/bin/systemctl] (owned by unix-user:admin)
+<86>1 2024-05-14T16:11:34.172853Z PROXY-BO-01 sudo 236623 - - pam_unix(sudo:session): session opened for user root(uid=0) by backup(uid=3037)
+<85>1 2024-05-14T16:11:34.272853Z PROXY-BO-01 sudo 236623 - - backup : TTY=pts/3 ; PWD=/etc ; USER=root ; COMMAND=/usr/bin/journalctl -u squid --since "45 min ago"
+<86>1 2024-05-14T16:11:34.670853Z PROXY-BO-01 sudo 236623 - - pam_unix(sudo:session): session closed for user root
+<30>1 2024-05-14T16:13:49.516791Z PROXY-BO-01 polkitd 22038 - - Subject unix-process:236726:62002944 is authorized for action org.freedesktop.timedate1.set-timezone
+<30>1 2024-05-14T16:14:41.463621Z PROXY-BO-01 dbus-daemon 38165 - - [system] Activating via systemd: service name='org.freedesktop.login1' unit='dbus-org.freedesktop.login1.service' requested by ':1.327'
+<30>1 2024-05-14T16:17:44.788777Z PROXY-BO-01 polkitd 22038 - - Operator of unix-process:236810:62026140 successfully authenticated as unix-user:root to gain TEMPORARY authorization for action org.freedesktop.packagekit.system-update for system-bus-name::1.328 [/usr/lib/packagekit/packagekitd] (owned by unix-user:root)
+<30>1 2024-05-14T16:17:58.078241Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 187.8M, max 256M, 68.2M free.
+<30>1 2024-05-14T16:18:48.308913Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 91.9M, max 256M, 164.1M free.
+<86>1 2024-05-14T16:20:09.037812Z PROXY-BO-01 sshd 236828 - - Connection from 10.44.10.22 port 62993 on 10.44.20.30 port 22
+<86>1 2024-05-14T16:20:10.526970Z PROXY-BO-01 sshd 236828 - - Accepted password for nina.kapoor from 10.44.10.22 port 62993 ssh2
+<86>1 2024-05-14T16:20:10.690222Z PROXY-BO-01 sshd 236828 - - pam_unix(sshd:session): session opened for user nina.kapoor(uid=4614) by (uid=0)
+<86>1 2024-05-14T16:20:11.417380Z PROXY-BO-01 systemd-logind 38189 - - New session 82754 of user nina.kapoor.
+<30>1 2024-05-14T16:21:27.060116Z PROXY-BO-01 systemd 1 - - Starting apt-daily.service - Daily apt download activities.
+<30>1 2024-05-14T16:21:28.880522Z PROXY-BO-01 systemd 1 - - apt-daily.service: Deactivated successfully.
+<30>1 2024-05-14T16:23:14.799624Z PROXY-BO-01 rsyslogd 38115 - - main Q: queue fwdRule1 has 56992 messages pending, worker threads 1
+<30>1 2024-05-14T16:24:04.198447Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 93.7M, max 256M, 162.3M free.
+<86>1 2024-05-14T16:24:56.145821Z PROXY-BO-01 sudo 236968 - - pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+<86>1 2024-05-14T16:25:02.318821Z PROXY-BO-01 systemd-logind 38189 - - New session 82793 of user root.
+<86>1 2024-05-14T16:25:07.285041Z PROXY-BO-01 sshd 236972 - - Connection from 10.44.20.20 port 54104 on 10.44.20.30 port 22
+<86>1 2024-05-14T16:25:07.457230Z PROXY-BO-01 sshd 236972 - - Accepted publickey for nina.kapoor from 10.44.20.20 port 54104 ssh2: ED25519 SHA256:YBcWikEjdj6qrpAqalUWz+xMD7gJqRQ/ahdmLp4lGba
+<86>1 2024-05-14T16:25:07.635473Z PROXY-BO-01 sshd 236972 - - pam_unix(sshd:session): session opened for user nina.kapoor(uid=4614) by (uid=0)
+<86>1 2024-05-14T16:25:08.376626Z PROXY-BO-01 systemd-logind 38189 - - New session 82796 of user nina.kapoor.
+<30>1 2024-05-14T16:25:37.258307Z PROXY-BO-01 rsyslogd 38115 - - configuration reload completed after SIGHUP, reload id 92856
+<30>1 2024-05-14T16:26:28.140157Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 101.1M, max 256M, 154.9M free.
+<30>1 2024-05-14T16:27:18.132504Z PROXY-BO-01 dbus-daemon 38165 - - [system] Successfully activated service 'org.freedesktop.locale1' for ':1.331'
+<30>1 2024-05-14T16:27:53.727759Z PROXY-BO-01 snapd 38409 - - stateengine.go:150: state ensure starting change 1408
+<30>1 2024-05-14T16:27:54.846587Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 102.2M, max 256M, 153.8M free.
+<30>1 2024-05-14T16:27:56.678357Z PROXY-BO-01 dbus-daemon 38165 - - [system] Successfully activated service 'org.freedesktop.locale1' for ':1.334'
+<30>1 2024-05-14T16:28:45.435211Z PROXY-BO-01 dbus-daemon 38165 - - [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.337'
+<30>1 2024-05-14T16:29:00.140360Z PROXY-BO-01 rsyslogd 38115 - - omfwd: target 10.10.2.30 using disk-assisted queue fwdRule1, checkpoint 57834
+<30>1 2024-05-14T16:29:07.311932Z PROXY-BO-01 systemd-resolved 38457 - - Transaction 805160 switched to UDP+EDNS0 with advertised UDP packet size 1232.
+<30>1 2024-05-14T16:29:18.711544Z PROXY-BO-01 snapd 38409 - - taskrunner.go:271: change 1407 task 6 done for core22
+<86>1 2024-05-14T16:30:54.393436Z PROXY-BO-01 sudo 236154 - - pam_unix(sudo:session): session closed for user ubuntu
+<86>1 2024-05-14T16:30:56.343436Z PROXY-BO-01 systemd-logind 38189 - - Removed session 82372.
+<78>1 2024-05-14T16:31:22.257639Z PROXY-BO-01 CRON 237087 - - (sysstat) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+<30>1 2024-05-14T16:31:57.627145Z PROXY-BO-01 systemd-resolved 38457 - - Using degraded feature set TCP instead of UDP+EDNS0 for DNS server 10.44.20.10 after transaction 319840.
+<30>1 2024-05-14T16:32:01.277291Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 105.7M, max 256M, 150.3M free.
+<30>1 2024-05-14T16:32:14.786925Z PROXY-BO-01 polkitd 22038 - - Registered Authentication Agent for unix-session:43 (system bus name :1.340 [/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+<86>1 2024-05-14T16:32:33.291811Z PROXY-BO-01 sshd 235841 - - pam_unix(sshd:session): session closed for user nina.kapoor
+<30>1 2024-05-14T16:33:12.556118Z PROXY-BO-01 dbus-daemon 38165 - - [system] Activating via systemd: service name='org.freedesktop.login1' unit='dbus-org.freedesktop.login1.service' requested by ':1.341'
+<30>1 2024-05-14T16:33:35.401317Z PROXY-BO-01 dbus-daemon 38165 - - [system] Successfully activated service 'org.freedesktop.locale1' for ':1.342'
+<30>1 2024-05-14T16:33:57.419266Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 108.1M, max 256M, 147.9M free.
+<30>1 2024-05-14T16:34:05.618581Z PROXY-BO-01 polkitd 22038 - - Unregistered Authentication Agent for unix-session:36 (system bus name :1.307, object path /org/freedesktop/PolicyKit1/AuthenticationAgent)
+<30>1 2024-05-14T16:34:13.568512Z PROXY-BO-01 irqbalance 36974 - - IRQ 16 classified for CPU 3 balancing on nvme0q1
+<86>1 2024-05-14T16:34:39.494585Z PROXY-BO-01 sshd 236972 - - pam_unix(sshd:session): session closed for user nina.kapoor
+<30>1 2024-05-14T16:35:36.281141Z PROXY-BO-01 rsyslogd 38115 - - imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' fd 13
+<30>1 2024-05-14T16:36:17.266603Z PROXY-BO-01 irqbalance 36974 - - NUMA node 0: balancing pass complete, 2 IRQs moved
+<30>1 2024-05-14T16:38:19.268873Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 109.8M, max 256M, 146.2M free.
+<30>1 2024-05-14T16:41:55.282370Z PROXY-BO-01 irqbalance 36974 - - Skipping IRQ 137: banned by affinity mask 00000008 (ahci)
+<30>1 2024-05-14T16:43:08.160990Z PROXY-BO-01 dbus-daemon 38165 - - [system] Successfully activated service 'org.freedesktop.resolve1' for ':1.343'
+<30>1 2024-05-14T16:43:25.849277Z PROXY-BO-01 irqbalance 36974 - - IRQ 154 classified for CPU 3 balancing on ens160
+<86>1 2024-05-14T16:44:09.530695Z PROXY-BO-01 sshd 236828 - - pam_unix(sshd:session): session closed for user nina.kapoor
+<30>1 2024-05-14T16:46:13.788072Z PROXY-BO-01 irqbalance 36974 - - IRQ 64 affinity hint keeps vector on CPU 2 (mlx5_comp0)
+<30>1 2024-05-14T16:47:08.224972Z PROXY-BO-01 polkitd 22038 - - Operator of unix-process:237350:62202288 successfully authenticated as unix-user:admin to gain TEMPORARY authorization for action org.freedesktop.login1.reboot for system-bus-name::1.345 [/usr/bin/loginctl] (owned by unix-user:deploy)
+<30>1 2024-05-14T16:48:12.821716Z PROXY-BO-01 irqbalance 36974 - - NUMA node 0: balancing pass complete, 2 IRQs moved
+<30>1 2024-05-14T16:49:12.723863Z PROXY-BO-01 snapd 38409 - - daemon.go:460: gracefully waiting for hook microk8s.configure
+<30>1 2024-05-14T16:49:18.560193Z PROXY-BO-01 polkitd 22038 - - Unregistered Authentication Agent for unix-session:39 (system bus name :1.310, object path /org/freedesktop/PolicyKit1/AuthenticationAgent)
+<30>1 2024-05-14T16:50:45.433923Z PROXY-BO-01 polkitd 22038 - - Subject unix-process:237357:62224217 is authorized for action org.freedesktop.timedate1.set-timezone
+<30>1 2024-05-14T16:51:19.443500Z PROXY-BO-01 dbus-daemon 38165 - - [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.348'
+<86>1 2024-05-14T17:00:50.729104Z PROXY-BO-01 sshd 236421 - - pam_unix(sshd:session): session closed for user nina.kapoor
+<78>1 2024-05-14T17:01:27.659977Z PROXY-BO-01 CRON 237827 - - (sysstat) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+<30>1 2024-05-14T17:02:16.970909Z PROXY-BO-01 dbus-daemon 38165 - - [system] Successfully activated service 'org.freedesktop.locale1' for ':1.350'
+<30>1 2024-05-14T17:02:29.101043Z PROXY-BO-01 irqbalance 36974 - - IRQ 122 affinity hint keeps vector on CPU 0 (nvme0q1)
+<30>1 2024-05-14T17:03:22.940445Z PROXY-BO-01 irqbalance 36974 - - IRQ 86 affinity hint keeps vector on CPU 3 (ahci)
+<30>1 2024-05-14T17:03:34.356544Z PROXY-BO-01 irqbalance 36974 - - Skipping IRQ 16: banned by affinity mask 00000008 (virtio0-input)
+<30>1 2024-05-14T17:04:36.291989Z PROXY-BO-01 rsyslogd 38115 - - module omfile: worker thread pool adjusted to 1
+<30>1 2024-05-14T17:04:43.735701Z PROXY-BO-01 polkitd 22038 - - Operator of unix-process:238110:62307942 successfully authenticated as unix-user:deploy to gain TEMPORARY authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.351 [/usr/bin/systemctl] (owned by unix-user:root)
+<30>1 2024-05-14T17:04:50.777919Z PROXY-BO-01 dbus-daemon 38165 - - [system] Activating via systemd: service name='org.freedesktop.login1' unit='dbus-org.freedesktop.login1.service' requested by ':1.353'
+<30>1 2024-05-14T17:05:40.058356Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 111.7M, max 256M, 144.3M free.
+<30>1 2024-05-14T17:07:36.100059Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 112.7M, max 256M, 143.3M free.
+<30>1 2024-05-14T17:07:43.445484Z PROXY-BO-01 polkitd 22038 - - Unregistered Authentication Agent for unix-session:43 (system bus name :1.340, object path /org/freedesktop/PolicyKit1/AuthenticationAgent)
+<30>1 2024-05-14T17:07:44.139268Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 120.3M, max 256M, 135.7M free.
+<30>1 2024-05-14T17:08:51.399955Z PROXY-BO-01 dbus-daemon 38165 - - [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.354'
+<30>1 2024-05-14T17:10:40.477050Z PROXY-BO-01 polkitd 22038 - - Registered Authentication Agent for unix-session:36 (system bus name :1.355 [/usr/libexec/polkit-gnome-authentication-agent-1], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+<30>1 2024-05-14T17:11:20.334371Z PROXY-BO-01 dbus-daemon 38165 - - [system] Activating via systemd: service name='org.freedesktop.login1' unit='dbus-org.freedesktop.login1.service' requested by ':1.358'
+<30>1 2024-05-14T17:11:21.089624Z PROXY-BO-01 systemd-resolved 38457 - - Grace period over, resuming full feature set UDP+EDNS0 for DNS server 10.44.20.10 after probe 271483.
+<30>1 2024-05-14T17:11:21.360191Z PROXY-BO-01 polkitd 22038 - - Operator of unix-process:238191:62347870 successfully authenticated as unix-user:admin to gain TEMPORARY authorization for action org.freedesktop.NetworkManager.settings.modify.system for system-bus-name::1.359 [/usr/bin/nmcli] (owned by unix-user:root)
+<30>1 2024-05-14T17:11:21.586277Z PROXY-BO-01 systemd-resolved 38457 - - Flushed stale cache scope global after DNS server 10.44.20.10 changed features.
+<30>1 2024-05-14T17:11:21.709965Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 126.4M, max 256M, 129.6M free.
+<30>1 2024-05-14T17:12:03.646518Z PROXY-BO-01 irqbalance 36974 - - IRQ 32 affinity hint keeps vector on CPU 2 (virtio0-input)
+<30>1 2024-05-14T17:12:04.730059Z PROXY-BO-01 systemd-resolved 38457 - - Transaction 392458 switched to TCP with advertised UDP packet size 512.
+<30>1 2024-05-14T17:12:33.215170Z PROXY-BO-01 snapd 38409 - - daemon.go:460: gracefully waiting for hook lxd.configure
+<30>1 2024-05-14T17:12:34.706455Z PROXY-BO-01 polkitd 22038 - - Unregistered Authentication Agent for unix-session:36 (system bus name :1.355, object path /org/freedesktop/PolicyKit1/AuthenticationAgent)
+<30>1 2024-05-14T17:12:46.339516Z PROXY-BO-01 polkitd 22038 - - Operator of unix-process:238216:62356517 successfully authenticated as unix-user:admin to gain TEMPORARY authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.360 [/usr/bin/systemctl] (owned by unix-user:root)
+<30>1 2024-05-14T17:12:50.931258Z PROXY-BO-01 irqbalance 36974 - - Skipping IRQ 16: banned by affinity mask 00000001 (nvme0q1)
+<30>1 2024-05-14T17:13:14.158115Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 129.3M, max 256M, 126.7M free.
+<30>1 2024-05-14T17:14:07.488396Z PROXY-BO-01 polkitd 22038 - - Registered Authentication Agent for unix-session:43 (system bus name :1.361 [/usr/libexec/polkit-gnome-authentication-agent-1], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+<30>1 2024-05-14T17:14:07.838259Z PROXY-BO-01 dbus-daemon 38165 - - [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.362'
+<30>1 2024-05-14T17:14:11.355032Z PROXY-BO-01 rsyslogd 38115 - - main Q: queue main has 31608 messages pending, worker threads 1
+<30>1 2024-05-14T17:16:05.034924Z PROXY-BO-01 snapd 38409 - - daemon.go:460: gracefully waiting for hook microk8s.configure
+<30>1 2024-05-14T17:16:48.388872Z PROXY-BO-01 polkitd 22038 - - Subject unix-process:238300:62380671 is authorized for action org.freedesktop.NetworkManager.settings.modify.system
+<30>1 2024-05-14T17:16:56.342010Z PROXY-BO-01 polkitd 22038 - - Registered Authentication Agent for unix-session:36 (system bus name :1.364 [/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+<30>1 2024-05-14T17:16:57.306211Z PROXY-BO-01 dbus-daemon 38165 - - [system] Activating via systemd: service name='org.freedesktop.login1' unit='dbus-org.freedesktop.login1.service' requested by ':1.366'
+<30>1 2024-05-14T17:17:03.357328Z PROXY-BO-01 snapd 38409 - - stateengine.go:150: state ensure starting change 1416
+<30>1 2024-05-14T17:17:15.470845Z PROXY-BO-01 irqbalance 36974 - - Skipping IRQ 45: banned by affinity mask 00000004 (ahci)
+<30>1 2024-05-14T17:17:35.773882Z PROXY-BO-01 systemd-resolved 38457 - - Grace period over, resuming full feature set UDP+EDNS0 for DNS server 10.44.20.10 after probe 470872.
+<30>1 2024-05-14T17:18:53.123200Z PROXY-BO-01 rsyslogd 38115 - - configuration reload completed after SIGHUP, reload id 4787
+<30>1 2024-05-14T17:21:21.867118Z PROXY-BO-01 rsyslogd 38115 - - configuration file /etc/rsyslog.d/50-default.conf reloaded, checksum 95188
+<86>1 2024-05-14T17:21:49.165596Z PROXY-BO-01 sshd 238393 - - Connection from 10.44.10.23 port 54287 on 10.44.20.30 port 22
+<86>1 2024-05-14T17:21:49.463800Z PROXY-BO-01 sshd 238393 - - Accepted publickey for nina.kapoor from 10.44.10.23 port 54287 ssh2: ECDSA SHA256:WBU1RhY4IHsirI12yz4K1P70WPX4FfE+1y45sOa9EBl
+<86>1 2024-05-14T17:21:49.532083Z PROXY-BO-01 sshd 238393 - - pam_unix(sshd:session): session opened for user nina.kapoor(uid=4614) by (uid=0)
+<86>1 2024-05-14T17:21:50.018232Z PROXY-BO-01 systemd-logind 38189 - - New session 83247 of user nina.kapoor.
+<30>1 2024-05-14T17:22:24.652638Z PROXY-BO-01 snapd 38409 - - taskrunner.go:271: change 1407 task 4 done for core22
+<30>1 2024-05-14T17:22:35.318101Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 130.4M, max 256M, 125.6M free.
+<30>1 2024-05-14T17:22:39.627888Z PROXY-BO-01 polkitd 22038 - - Operator of unix-process:238426:62415755 successfully authenticated as unix-user:deploy to gain TEMPORARY authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.367 [/usr/bin/systemctl] (owned by unix-user:root)
+<30>1 2024-05-14T17:23:05.854145Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 135.5M, max 256M, 120.5M free.
+<30>1 2024-05-14T17:23:08.719771Z PROXY-BO-01 rsyslogd 38115 - - imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' fd 20
+<30>1 2024-05-14T17:23:16.454569Z PROXY-BO-01 systemd-resolved 38457 - - Grace period over, resuming full feature set UDP+EDNS0 for DNS server 10.44.20.10 after probe 641868.
+<30>1 2024-05-14T17:23:16.656607Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 141.3M, max 256M, 114.7M free.
+<30>1 2024-05-14T17:23:16.690274Z PROXY-BO-01 polkitd 22038 - - Unregistered Authentication Agent for unix-session:43 (system bus name :1.361, object path /org/freedesktop/PolicyKit1/AuthenticationAgent)
+<30>1 2024-05-14T17:23:32.025968Z PROXY-BO-01 dbus-daemon 38165 - - [system] Successfully activated service 'org.freedesktop.locale1' for ':1.368'
+<30>1 2024-05-14T17:24:02.396946Z PROXY-BO-01 systemd-resolved 38457 - - Using degraded feature set TCP instead of UDP+EDNS0 for DNS server 10.44.20.10 after transaction 857948.
+<30>1 2024-05-14T17:24:15.587253Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 148.4M, max 256M, 107.6M free.
+<30>1 2024-05-14T17:25:05.163657Z PROXY-BO-01 snapd 38409 - - autorefresh.go:540: auto-refresh for snapd-desktop-integration: no updates found
+<30>1 2024-05-14T17:25:07.086614Z PROXY-BO-01 dbus-daemon 38165 - - [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.370'
+<30>1 2024-05-14T17:25:13.842765Z PROXY-BO-01 snapd 38409 - - stateengine.go:150: state ensure starting change 1408
+<30>1 2024-05-14T17:25:40.017128Z PROXY-BO-01 snapd 38409 - - taskrunner.go:271: change 1407 task 4 done for microk8s
+<30>1 2024-05-14T17:26:00.505421Z PROXY-BO-01 polkitd 22038 - - Subject unix-process:238482:62435967 is authorized for action org.freedesktop.systemd1.manage-units
+<30>1 2024-05-14T17:26:03.388635Z PROXY-BO-01 irqbalance 36974 - - Skipping IRQ 32: banned by affinity mask 00000002 (virtio0-input)
+<30>1 2024-05-14T17:26:13.564687Z PROXY-BO-01 systemd-resolved 38457 - - Grace period over, resuming full feature set UDP+EDNS0 for DNS server 10.44.20.10 after probe 586556.
+<30>1 2024-05-14T17:27:41.588976Z PROXY-BO-01 polkitd 22038 - - Subject unix-process:238542:62445967 is authorized for action org.freedesktop.login1.reboot
+<86>1 2024-05-14T17:27:44.371430Z PROXY-BO-01 sshd 238558 - - Connection from 10.44.10.22 port 49409 on 10.44.20.30 port 22
+<86>1 2024-05-14T17:27:44.608654Z PROXY-BO-01 sshd 238558 - - Accepted publickey for nina.kapoor from 10.44.10.22 port 49409 ssh2: ECDSA SHA256:Yx6vlhdnoCzq7GKy3Qsm5olL31YDPoV6m4EC5zzYdsI
+<86>1 2024-05-14T17:27:44.764901Z PROXY-BO-01 sshd 238558 - - pam_unix(sshd:session): session opened for user nina.kapoor(uid=4614) by (uid=0)
+<86>1 2024-05-14T17:27:45.290032Z PROXY-BO-01 systemd-logind 38189 - - New session 83294 of user nina.kapoor.
+<86>1 2024-05-14T17:27:57.062699Z PROXY-BO-01 sshd 238393 - - pam_unix(sshd:session): session closed for user nina.kapoor
+<30>1 2024-05-14T17:28:04.571307Z PROXY-BO-01 rsyslogd 38115 - - omfwd: target siem-forwarder using disk-assisted queue local-spool, checkpoint 54054
+<30>1 2024-05-14T17:29:32.695580Z PROXY-BO-01 dbus-daemon 38165 - - [system] Successfully activated service 'org.freedesktop.resolve1' for ':1.377'
+<30>1 2024-05-14T17:30:12.651308Z PROXY-BO-01 polkitd 22038 - - Subject unix-process:238585:62461187 is authorized for action org.freedesktop.timedate1.set-timezone
+<30>1 2024-05-14T17:30:22.930278Z PROXY-BO-01 polkitd 22038 - - Registered Authentication Agent for unix-session:39 (system bus name :1.381 [/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+<30>1 2024-05-14T17:30:25.595068Z PROXY-BO-01 polkitd 22038 - - Operator of unix-process:238647:62461427 successfully authenticated as unix-user:deploy to gain TEMPORARY authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.383 [/usr/bin/systemctl] (owned by unix-user:root)
+<30>1 2024-05-14T17:30:36.890084Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 155.8M, max 256M, 100.2M free.
+<30>1 2024-05-14T17:30:37.843432Z PROXY-BO-01 polkitd 22038 - - Registered Authentication Agent for unix-session:43 (system bus name :1.385 [/usr/libexec/kf5/polkit-kde-authentication-agent-1], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+<78>1 2024-05-14T17:31:07.302359Z PROXY-BO-01 CRON 238111 - - (sysstat) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+<30>1 2024-05-14T17:31:44.879835Z PROXY-BO-01 dbus-daemon 38165 - - [system] Activating via systemd: service name='org.freedesktop.login1' unit='dbus-org.freedesktop.login1.service' requested by ':1.386'
+<30>1 2024-05-14T17:31:48.716997Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 162.3M, max 256M, 93.7M free.
+<30>1 2024-05-14T17:32:39.175099Z PROXY-BO-01 irqbalance 36974 - - NUMA node 1: balancing pass complete, 0 IRQs moved
+<30>1 2024-05-14T17:32:54.813655Z PROXY-BO-01 rsyslogd 38115 - - imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' fd 24
+<30>1 2024-05-14T17:33:16.147768Z PROXY-BO-01 dbus-daemon 38165 - - [system] Successfully activated service 'org.freedesktop.locale1' for ':1.387'
+<86>1 2024-05-14T17:34:21.467058Z PROXY-BO-01 sshd 238696 - - Connection from 10.44.10.25 port 52652 on 10.44.20.30 port 22
+<86>1 2024-05-14T17:34:21.623228Z PROXY-BO-01 sshd 238696 - - Accepted publickey for nina.kapoor from 10.44.10.25 port 52652 ssh2: RSA SHA256:zI+8TLQ1U1NdiomCHbxcvrKq/1LGGyDiqqoiJOi2Gu1
+<86>1 2024-05-14T17:34:21.686429Z PROXY-BO-01 sshd 238696 - - pam_unix(sshd:session): session opened for user nina.kapoor(uid=4614) by (uid=0)
+<86>1 2024-05-14T17:34:22.263612Z PROXY-BO-01 systemd-logind 38189 - - New session 83347 of user nina.kapoor.
+<30>1 2024-05-14T17:34:28.261754Z PROXY-BO-01 irqbalance 36974 - - NUMA node 1: balancing pass complete, 1 IRQs moved
+<30>1 2024-05-14T17:34:42.129846Z PROXY-BO-01 dbus-daemon 38165 - - [system] Successfully activated service 'org.freedesktop.resolve1' for ':1.388'
+<30>1 2024-05-14T17:35:46.906046Z PROXY-BO-01 rsyslogd 38115 - - imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' fd 25
+<30>1 2024-05-14T17:36:02.662639Z PROXY-BO-01 irqbalance 36974 - - Skipping IRQ 45: banned by affinity mask 00000008 (mlx5_comp0)
+<30>1 2024-05-14T17:36:56.726347Z PROXY-BO-01 dbus-daemon 38165 - - [system] Activating via systemd: service name='org.freedesktop.login1' unit='dbus-org.freedesktop.login1.service' requested by ':1.390'
+<30>1 2024-05-14T17:38:03.470261Z PROXY-BO-01 irqbalance 36974 - - IRQ 154 classified for CPU 1 balancing on mlx5_comp0
+<30>1 2024-05-14T17:38:09.736582Z PROXY-BO-01 snapd 38409 - - autorefresh.go:540: auto-refresh for microk8s: no updates found
+<30>1 2024-05-14T17:38:26.419750Z PROXY-BO-01 rsyslogd 38115 - - imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' fd 26
+<30>1 2024-05-14T17:38:29.484838Z PROXY-BO-01 systemd-resolved 38457 - - Grace period over, resuming full feature set UDP+EDNS0 for DNS server 10.44.20.10 after probe 607958.
+<30>1 2024-05-14T17:39:22.471768Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 169.7M, max 256M, 86.3M free.
+<30>1 2024-05-14T17:39:30.643692Z PROXY-BO-01 snapd 38409 - - stateengine.go:150: state ensure starting change 1415
+<86>1 2024-05-14T17:40:14.779610Z PROXY-BO-01 sudo 238735 - - pam_unix(sudo:session): session opened for user admin(uid=1001) by (uid=0)
+<86>1 2024-05-14T17:40:18.195610Z PROXY-BO-01 systemd-logind 38189 - - New session 83395 of user admin.
+<86>1 2024-05-14T17:41:50.763161Z PROXY-BO-01 sshd 238696 - - pam_unix(sshd:session): session closed for user nina.kapoor
+<30>1 2024-05-14T17:42:10.214880Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 173.8M, max 256M, 82.2M free.
+<30>1 2024-05-14T17:43:00.005589Z PROXY-BO-01 dbus-daemon 38165 - - [system] Activating via systemd: service name='org.freedesktop.login1' unit='dbus-org.freedesktop.login1.service' requested by ':1.391'
+<30>1 2024-05-14T17:44:31.562672Z PROXY-BO-01 irqbalance 36974 - - NUMA node 1: balancing pass complete, 1 IRQs moved
+<30>1 2024-05-14T17:44:49.807040Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 176.8M, max 256M, 79.2M free.
+<30>1 2024-05-14T17:44:59.466132Z PROXY-BO-01 irqbalance 36974 - - IRQ 45 affinity hint keeps vector on CPU 3 (mlx5_comp0)
+<30>1 2024-05-14T17:45:03.286177Z PROXY-BO-01 irqbalance 36974 - - IRQ 16 classified for CPU 1 balancing on mlx5_comp0
+<30>1 2024-05-14T17:45:53.349568Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 180.5M, max 256M, 75.5M free.
+<30>1 2024-05-14T17:46:36.113996Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 182.8M, max 256M, 73.2M free.
+<86>1 2024-05-14T17:46:59.061872Z PROXY-BO-01 sshd 238558 - - pam_unix(sshd:session): session closed for user nina.kapoor
+<30>1 2024-05-14T17:48:57.828968Z PROXY-BO-01 systemd-resolved 38457 - - Using degraded feature set TCP instead of UDP+EDNS0 for DNS server 10.44.20.10 after transaction 721313.
+<30>1 2024-05-14T17:49:03.729004Z PROXY-BO-01 rsyslogd 38115 - - main Q: queue local-spool has 90340 messages pending, worker threads 3
+<30>1 2024-05-14T17:49:37.600081Z PROXY-BO-01 polkitd 22038 - - Unregistered Authentication Agent for unix-session:36 (system bus name :1.364, object path /org/freedesktop/PolicyKit1/AuthenticationAgent)
+<30>1 2024-05-14T17:49:47.000664Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 104.5M, max 256M, 151.5M free.
+<86>1 2024-05-14T17:49:54.836849Z PROXY-BO-01 sshd 238701 - - Connection from 10.44.10.24 port 62594 on 10.44.20.30 port 22
+<86>1 2024-05-14T17:49:55.663067Z PROXY-BO-01 sshd 238701 - - Accepted password for nina.kapoor from 10.44.10.24 port 62594 ssh2
+<86>1 2024-05-14T17:49:55.778244Z PROXY-BO-01 sshd 238701 - - pam_unix(sshd:session): session opened for user nina.kapoor(uid=4614) by (uid=0)
+<86>1 2024-05-14T17:49:56.292407Z PROXY-BO-01 systemd-logind 38189 - - New session 83470 of user nina.kapoor.
+<30>1 2024-05-14T17:50:10.810916Z PROXY-BO-01 dbus-daemon 38165 - - [system] Successfully activated service 'org.freedesktop.resolve1' for ':1.394'
+<86>1 2024-05-14T17:50:10.986486Z PROXY-BO-01 sudo 238780 - - pam_unix(sudo:session): session opened for user admin(uid=1001) by (uid=0)
+<30>1 2024-05-14T17:50:18.316331Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 108.0M, max 256M, 148.0M free.
+<86>1 2024-05-14T17:50:18.713486Z PROXY-BO-01 systemd-logind 38189 - - New session 83474 of user admin.
+<30>1 2024-05-14T17:50:20.202787Z PROXY-BO-01 polkitd 22038 - - Operator of unix-process:238797:62581681 successfully authenticated as unix-user:root to gain TEMPORARY authorization for action org.freedesktop.login1.reboot for system-bus-name::1.395 [/usr/bin/loginctl] (owned by unix-user:admin)
+<30>1 2024-05-14T17:51:11.534864Z PROXY-BO-01 dbus-daemon 38165 - - [system] Successfully activated service 'org.freedesktop.resolve1' for ':1.397'
+<30>1 2024-05-14T17:52:30.086850Z PROXY-BO-01 polkitd 22038 - - Unregistered Authentication Agent for unix-session:39 (system bus name :1.381, object path /org/freedesktop/PolicyKit1/AuthenticationAgent)
+<30>1 2024-05-14T17:53:49.016513Z PROXY-BO-01 polkitd 22038 - - Registered Authentication Agent for unix-session:36 (system bus name :1.400 [/usr/libexec/kf5/polkit-kde-authentication-agent-1], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+<30>1 2024-05-14T17:54:18.354179Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 109.0M, max 256M, 147.0M free.
+<30>1 2024-05-14T17:54:25.763690Z PROXY-BO-01 systemd-journald 38067 - - Runtime Journal (/run/log/journal/8c80f5f6882960487c037202e4e68189) is 110.0M, max 256M, 146.0M free.
+<30>1 2024-05-14T17:55:10.243203Z PROXY-BO-01 polkitd 22038 - - Registered Authentication Agent for unix-session:38 (system bus name :1.402 [/usr/libexec/polkit-gnome-authentication-agent-1], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+<86>1 2024-05-14T17:55:30.013534Z PROXY-BO-01 sshd 238945 - - Connection from 10.44.10.21 port 64196 on 10.44.20.30 port 22
+<86>1 2024-05-14T17:55:30.452739Z PROXY-BO-01 sshd 238945 - - Accepted publickey for root from 10.44.10.21 port 64196 ssh2: ED25519 SHA256:VCUf+TWhW9DeXTORNWlWFEJ3yc0wb/Z3QoS9TUEP1ke
+<86>1 2024-05-14T17:55:30.601907Z PROXY-BO-01 sshd 238945 - - pam_unix(sshd:session): session opened for user root(uid=0) by (uid=0)
+<86>1 2024-05-14T17:55:31.081147Z PROXY-BO-01 systemd-logind 38189 - - New session 83517 of user root.

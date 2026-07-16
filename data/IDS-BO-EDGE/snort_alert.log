@@ -1,0 +1,60 @@
+05/14-12:01:18.092 [**] [1:382:1] PROTOCOL-ICMP PING Linux [**] [Classification: icmp-event] [Priority: 3] {ICMP} 38.186.148.245 -> 45.83.220.5
+05/14-12:01:37.446 [**] [1:366:1] PROTOCOL-ICMP PING BSDtype [**] [Classification: icmp-event] [Priority: 3] {ICMP} 38.186.148.245 -> 45.83.220.5
+05/14-12:02:39.853 [**] [1:2003068:6] ET SCAN ICMP Unusual PING detected [**] [Classification: attempted-recon] [Priority: 2] {ICMP} 74.172.69.175 -> 45.83.220.5
+05/14-12:03:59.546 [**] [1:382:1] PROTOCOL-ICMP PING Linux [**] [Classification: icmp-event] [Priority: 3] {ICMP} 37.75.195.175 -> 45.83.220.5
+05/14-12:16:54.057 [**] [1:2003068:6] ET SCAN ICMP Unusual PING detected [**] [Classification: attempted-recon] [Priority: 2] {ICMP} 185.249.5.220 -> 45.83.220.5
+05/14-12:55:23.583 [**] [1:2027885:3] ET WEB_SERVER Git Repository Access Attempt [**] [Classification: attempted-recon] [Priority: 2] {TCP} 185.199.110.42:57110 -> 45.83.220.5:80
+05/14-12:55:30.366 [**] [1:2014020:3] ET WEB_SERVER Wordpress Login Bruteforcing Detected [**] [Classification: web-application-attack] [Priority: 2] {TCP} 185.199.110.42:55174 -> 45.83.220.5:80
+05/14-12:55:32.274 [**] [1:2101129:7] GPL WEB_SERVER .htaccess access [**] [Classification: attempted-recon] [Priority: 2] {TCP} 185.199.110.42:49195 -> 45.83.220.5:80
+05/14-12:55:57.004 [**] [1:2101071:7] GPL WEB_SERVER .htpasswd access [**] [Classification: attempted-recon] [Priority: 2] {TCP} 185.199.110.42:61161 -> 45.83.220.5:80
+05/14-12:56:12.407 [**] [1:2101852:5] GPL WEB_SERVER robots.txt access [**] [Classification: web-application-activity] [Priority: 3] {TCP} 185.199.110.42:49484 -> 45.83.220.5:80
+05/14-12:56:22.615 [**] [1:2002910:4] ET SCAN Rapid HTTP/HTTPS Connection Attempts [**] [Classification: attempted-recon] [Priority: 2] {TCP} 185.199.110.42:50711 -> 45.83.220.5:80
+05/14-12:57:05.452 [**] [1:2034567:2] ET WEB_SERVER .env File Access Attempt [**] [Classification: attempted-recon] [Priority: 2] {TCP} 185.199.110.42:54903 -> 45.83.220.5:80
+05/14-12:57:09.095 [**] [1:2101411:6] GPL WEB_SERVER 403 Forbidden [**] [Classification: attempted-recon] [Priority: 2] {TCP} 185.199.110.42:56876 -> 45.83.220.5:80
+05/14-12:57:15.739 [**] [1:2015737:5] ET WEB_SERVER PHPMyAdmin BackDoor Access [**] [Classification: web-application-attack] [Priority: 1] {TCP} 185.199.110.42:59921 -> 45.83.220.5:80
+05/14-12:57:15.972 [**] [1:2002910:4] ET SCAN Rapid HTTP/HTTPS Connection Attempts [**] [Classification: attempted-recon] [Priority: 2] {TCP} 185.199.110.42:50640 -> 45.83.220.5:80
+05/14-12:57:40.696 [**] [1:2101234:4] GPL WEB_SERVER Apache server-status access [**] [Classification: web-application-activity] [Priority: 2] {TCP} 185.199.110.42:56665 -> 45.83.220.5:80
+05/14-12:58:02.667 [**] [1:2015737:5] ET WEB_SERVER PHPMyAdmin BackDoor Access [**] [Classification: web-application-attack] [Priority: 1] {TCP} 185.199.110.42:63243 -> 45.83.220.5:80
+05/14-12:58:19.083 [**] [1:2014020:3] ET WEB_SERVER Wordpress Login Bruteforcing Detected [**] [Classification: web-application-attack] [Priority: 2] {TCP} 185.199.110.42:60550 -> 45.83.220.5:80
+05/14-12:58:53.183 [**] [1:384:1] PROTOCOL-ICMP PING [**] [Classification: icmp-event] [Priority: 3] {ICMP} 37.75.195.175 -> 45.83.220.5
+05/14-12:58:53.451 [**] [1:366:1] PROTOCOL-ICMP PING BSDtype [**] [Classification: icmp-event] [Priority: 3] {ICMP} 37.75.195.175 -> 45.83.220.5
+05/14-13:08:52.670 [**] [1:384:1] PROTOCOL-ICMP PING [**] [Classification: icmp-event] [Priority: 3] {ICMP} 45.33.74.51 -> 45.83.220.5
+05/14-13:17:25.653 [**] [1:366:1] PROTOCOL-ICMP PING BSDtype [**] [Classification: icmp-event] [Priority: 3] {ICMP} 74.172.69.175 -> 45.83.220.5
+05/14-13:21:44.306 [**] [1:384:1] PROTOCOL-ICMP PING [**] [Classification: icmp-event] [Priority: 3] {ICMP} 45.33.74.51 -> 45.83.220.5
+05/14-13:22:18.667 [**] [1:2000575:8] ET SCAN ICMP PING IPTools [**] [Classification: attempted-recon] [Priority: 3] {ICMP} 185.249.5.220 -> 45.83.220.5
+05/14-13:24:37.080 [**] [1:2012647:6] ET WEB_SERVER PHP Possible file upload attempt [**] [Classification: web-application-attack] [Priority: 2] {TCP} 156.32.3.55:62495 -> 45.83.220.5:80
+05/14-13:40:58.209 [**] [1:2003068:6] ET SCAN ICMP Unusual PING detected [**] [Classification: attempted-recon] [Priority: 2] {ICMP} 145.78.103.167 -> 45.83.220.5
+05/14-13:41:58.910 [**] [1:2000575:8] ET SCAN ICMP PING IPTools [**] [Classification: attempted-recon] [Priority: 3] {ICMP} 37.75.195.175 -> 45.83.220.5
+05/14-13:42:04.405 [**] [1:2009582:3] ET WEB_SERVER SQL Injection Attempt SELECT FROM [**] [Classification: web-application-attack] [Priority: 1] {TCP} 175.29.181.188:62912 -> 45.83.220.5:80
+05/14-13:46:00.458 [**] [1:382:1] PROTOCOL-ICMP PING Linux [**] [Classification: icmp-event] [Priority: 3] {ICMP} 175.29.181.188 -> 45.83.220.5
+05/14-13:46:47.319 [**] [1:2000575:8] ET SCAN ICMP PING IPTools [**] [Classification: attempted-recon] [Priority: 3] {ICMP} 38.186.148.245 -> 45.83.220.5
+05/14-13:46:47.661 [**] [1:2003068:6] ET SCAN ICMP Unusual PING detected [**] [Classification: attempted-recon] [Priority: 2] {ICMP} 38.186.148.245 -> 45.83.220.5
+05/14-13:50:09.951 [**] [1:2000575:8] ET SCAN ICMP PING IPTools [**] [Classification: attempted-recon] [Priority: 3] {ICMP} 37.75.195.175 -> 45.83.220.5
+05/14-14:01:05.772 [**] [1:2012887:2] ET WEB_SERVER Possible CRLF Injection Attempt in HTTP Header [**] [Classification: web-application-attack] [Priority: 2] {TCP} 37.75.195.175:56274 -> 45.83.220.5:80
+05/14-14:05:36.669 [**] [1:382:1] PROTOCOL-ICMP PING Linux [**] [Classification: icmp-event] [Priority: 3] {ICMP} 38.186.148.245 -> 45.83.220.5
+05/14-14:53:10.651 [**] [1:366:1] PROTOCOL-ICMP PING BSDtype [**] [Classification: icmp-event] [Priority: 3] {ICMP} 175.29.181.188 -> 45.83.220.5
+05/14-14:53:13.653 [**] [1:2003068:6] ET SCAN ICMP Unusual PING detected [**] [Classification: attempted-recon] [Priority: 2] {ICMP} 74.172.69.175 -> 45.83.220.5
+05/14-15:19:36.986 [**] [1:384:1] PROTOCOL-ICMP PING [**] [Classification: icmp-event] [Priority: 3] {ICMP} 37.75.195.175 -> 45.83.220.5
+05/14-15:43:10.282 [**] [1:366:1] PROTOCOL-ICMP PING BSDtype [**] [Classification: icmp-event] [Priority: 3] {ICMP} 145.78.103.167 -> 45.83.220.5
+05/14-15:43:10.284 [**] [1:2003068:6] ET SCAN ICMP Unusual PING detected [**] [Classification: attempted-recon] [Priority: 2] {ICMP} 145.78.103.167 -> 45.83.220.5
+05/14-15:45:08.890 [**] [1:2003068:6] ET SCAN ICMP Unusual PING detected [**] [Classification: attempted-recon] [Priority: 2] {ICMP} 74.172.69.175 -> 45.83.220.5
+05/14-15:49:32.807 [**] [1:2012647:6] ET WEB_SERVER PHP Possible file upload attempt [**] [Classification: web-application-attack] [Priority: 2] {TCP} 175.29.181.188:49312 -> 45.83.220.5:80
+05/14-15:51:37.269 [**] [1:384:1] PROTOCOL-ICMP PING [**] [Classification: icmp-event] [Priority: 3] {ICMP} 175.29.181.188 -> 45.83.220.5
+05/14-15:51:37.997 [**] [1:2000575:8] ET SCAN ICMP PING IPTools [**] [Classification: attempted-recon] [Priority: 3] {ICMP} 175.29.181.188 -> 45.83.220.5
+05/14-15:51:50.423 [**] [1:366:1] PROTOCOL-ICMP PING BSDtype [**] [Classification: icmp-event] [Priority: 3] {ICMP} 38.186.148.245 -> 45.83.220.5
+05/14-15:51:50.926 [**] [1:2003068:6] ET SCAN ICMP Unusual PING detected [**] [Classification: attempted-recon] [Priority: 2] {ICMP} 38.186.148.245 -> 45.83.220.5
+05/14-15:52:44.906 [**] [1:382:1] PROTOCOL-ICMP PING Linux [**] [Classification: icmp-event] [Priority: 3] {ICMP} 185.249.5.220 -> 45.83.220.5
+05/14-16:18:17.720 [**] [1:2009714:9] ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT [**] [Classification: web-application-attack] [Priority: 1] {TCP} 45.33.74.51:55505 -> 45.83.220.5:80
+05/14-16:25:23.855 [**] [1:2000575:8] ET SCAN ICMP PING IPTools [**] [Classification: attempted-recon] [Priority: 3] {ICMP} 175.29.181.188 -> 45.83.220.5
+05/14-16:34:57.011 [**] [1:2000575:8] ET SCAN ICMP PING IPTools [**] [Classification: attempted-recon] [Priority: 3] {ICMP} 38.186.148.245 -> 45.83.220.5
+05/14-16:44:24.383 [**] [1:2000575:8] ET SCAN ICMP PING IPTools [**] [Classification: attempted-recon] [Priority: 3] {ICMP} 45.33.74.51 -> 45.83.220.5
+05/14-16:45:05.043 [**] [1:2000575:8] ET SCAN ICMP PING IPTools [**] [Classification: attempted-recon] [Priority: 3] {ICMP} 37.75.195.175 -> 45.83.220.5
+05/14-16:45:05.577 [**] [1:382:1] PROTOCOL-ICMP PING Linux [**] [Classification: icmp-event] [Priority: 3] {ICMP} 37.75.195.175 -> 45.83.220.5
+05/14-17:17:42.441 [**] [1:382:1] PROTOCOL-ICMP PING Linux [**] [Classification: icmp-event] [Priority: 3] {ICMP} 156.32.3.55 -> 45.83.220.5
+05/14-17:25:33.424 [**] [1:2012647:6] ET WEB_SERVER PHP Possible file upload attempt [**] [Classification: web-application-attack] [Priority: 2] {TCP} 38.186.148.245:65018 -> 45.83.220.5:80
+05/14-17:31:37.077 [**] [1:366:1] PROTOCOL-ICMP PING BSDtype [**] [Classification: icmp-event] [Priority: 3] {ICMP} 37.75.195.175 -> 45.83.220.5
+05/14-17:39:07.980 [**] [1:384:1] PROTOCOL-ICMP PING [**] [Classification: icmp-event] [Priority: 3] {ICMP} 38.186.148.245 -> 45.83.220.5
+05/14-17:40:51.622 [**] [1:384:1] PROTOCOL-ICMP PING [**] [Classification: icmp-event] [Priority: 3] {ICMP} 74.172.69.175 -> 45.83.220.5
+05/14-17:45:13.367 [**] [1:2000575:8] ET SCAN ICMP PING IPTools [**] [Classification: attempted-recon] [Priority: 3] {ICMP} 38.186.148.245 -> 45.83.220.5
+05/14-17:55:06.273 [**] [1:2003068:6] ET SCAN ICMP Unusual PING detected [**] [Classification: attempted-recon] [Priority: 2] {ICMP} 175.29.181.188 -> 45.83.220.5
+05/14-17:57:03.044 [**] [1:2000575:8] ET SCAN ICMP PING IPTools [**] [Classification: attempted-recon] [Priority: 3] {ICMP} 185.249.5.220 -> 45.83.220.5
