@@ -158,19 +158,41 @@ This scenario was developed to understand how custom users, systems, attack time
 
 ## EvidenceForge Generation Workflow
 
-Scenario Definition (YAML)
-        ↓
-Scenario Validation
-        ↓
-Generation Engine
-        ↓
-Causal Expansion Engine
-        ↓
-Multi-Format Log Creation
-        ↓
-Ground Truth Generation
-        ↓
-Dataset Output
+```text
+┌─────────────────────────────┐
+│  Scenario Definition (YAML) │
+└──────────────┬──────────────┘
+               │
+               ▼
+┌─────────────────────────────┐
+│     Scenario Validation     │
+└──────────────┬──────────────┘
+               │
+               ▼
+┌─────────────────────────────┐
+│      Generation Engine      │
+└──────────────┬──────────────┘
+               │
+               ▼
+┌─────────────────────────────┐
+│   Causal Expansion Engine   │
+└──────────────┬──────────────┘
+               │
+               ▼
+┌─────────────────────────────┐
+│  Multi-Format Log Creation  │
+└──────────────┬──────────────┘
+               │
+               ▼
+┌─────────────────────────────┐
+│  Ground Truth Generation    │
+└──────────────┬──────────────┘
+               │
+               ▼
+┌─────────────────────────────┐
+│       Dataset Output        │
+└─────────────────────────────┘
+```
 
 ---
 
