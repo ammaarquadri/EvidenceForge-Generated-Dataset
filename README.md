@@ -392,6 +392,63 @@ Useful for:
 
 ---
 
+---
+
+# Validation and Generation
+
+The scenario was first validated using the EvidenceForge Scenario Validator to ensure that the YAML configuration was syntactically correct and all references were properly resolved.
+
+### Validate Scenario
+
+**Command**
+
+```bash
+python -m evidenceforge validate scenarios\soc-team-demo\scenario.yaml
+```
+
+<p align="center">
+  <img src="Validate.png" alt="EvidenceForge Scenario Validation" width="900">
+</p>
+
+---
+
+After successful validation, the scenario was executed using the EvidenceForge Generation Engine to create synthetic telemetry, ground-truth artifacts, and multi-format security logs.
+
+### Generate Dataset
+
+**Command**
+
+```bash
+python -m evidenceforge generate scenarios\soc-team-demo\scenario.yaml
+```
+
+<p align="center">
+  <img src="Generate.png" alt="EvidenceForge Dataset Generation" width="900">
+</p>
+
+---
+
+### Result
+
+The generation process produced:
+
+- Ground Truth Documentation (`GROUND_TRUTH.md`)
+- Ground Truth JSON (`GROUND_TRUTH.json`)
+- Observation Manifest (`OBSERVATION_MANIFEST.json`)
+- Multi-format Security Logs
+- Host-specific Log Directories
+- Network Telemetry
+- Windows Security Events
+- Sysmon Events
+- Zeek Logs
+- Snort IDS Alerts
+- Cisco ASA Firewall Logs
+- Proxy and Web Access Logs
+
+These outputs can be used for Threat Hunting, Detection Engineering, SOC Training, Incident Response, and Autonomous Security Research.
+
+---
+
 ## Learning Outcomes
 
 Through this project the following concepts were explored:
