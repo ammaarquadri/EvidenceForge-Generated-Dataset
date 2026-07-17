@@ -1,0 +1,390 @@
+{
+  "schema_version": 1,
+  "scenario_name": "soc-team-demo",
+  "scenario_description": "Agentic SOC team training environment customized for\nAmmaar Quadri, Ameen Khan, Ehsan Shaik, and Arif Syed.\n The scenario demonstrates:\n- User activity\n- Active Directory authentication\n- Administrative access\n- Internal reconnaissance\n- File server access\n- Outbound beaconing\n",
+  "generated_at": "2024-05-14T12:00:00Z",
+  "observation_profile": "complete",
+  "collection_window": {
+    "start": "2024-05-14T12:00:00Z",
+    "end": "2024-05-14T18:00:00Z"
+  },
+  "source_evidence_status": {
+    "evt-001": {
+      "asa": {
+        "visible": 53
+      },
+      "ecar": {
+        "visible": 53
+      },
+      "ids": {
+        "visible": 11
+      },
+      "web": {
+        "visible": 47
+      },
+      "zeek": {
+        "visible": 100
+      }
+    },
+    "evt-002": {
+      "asa": {
+        "visible": 1
+      },
+      "ecar": {
+        "visible": 6
+      },
+      "syslog": {
+        "visible": 4
+      },
+      "zeek": {
+        "visible": 1
+      }
+    },
+    "evt-003": {
+      "asa": {
+        "visible": 32
+      },
+      "ecar": {
+        "visible": 4
+      },
+      "zeek": {
+        "visible": 32
+      }
+    },
+    "evt-004": {
+      "asa": {
+        "visible": 1
+      },
+      "ecar": {
+        "visible": 2
+      },
+      "sysmon": {
+        "visible": 1
+      },
+      "windows_security": {
+        "visible": 3
+      },
+      "zeek": {
+        "visible": 1
+      }
+    },
+    "evt-005": {
+      "ecar": {
+        "visible": 6
+      },
+      "sysmon": {
+        "visible": 6
+      },
+      "windows_security": {
+        "visible": 4
+      }
+    },
+    "evt-006": {
+      "asa": {
+        "filtered": 13,
+        "visible": 15
+      },
+      "ecar": {
+        "visible": 28
+      },
+      "proxy": {
+        "visible": 8
+      },
+      "sysmon": {
+        "visible": 8
+      },
+      "windows_security": {
+        "visible": 21
+      },
+      "zeek": {
+        "visible": 56
+      }
+    },
+    "red_herring:rh-001": {
+      "asa": {
+        "visible": 2
+      },
+      "ecar": {
+        "visible": 3
+      },
+      "windows_security": {
+        "visible": 4
+      },
+      "zeek": {
+        "visible": 2
+      }
+    }
+  },
+  "storyline_steps": [
+    {
+      "storyline_id": "evt-001",
+      "index": 0,
+      "actor": "www-data",
+      "system": "WEB-BO-01",
+      "activity": "External vulnerability scanner probes the public claims portal",
+      "ground_truth_section": "storyline",
+      "event_types": [
+        "web_scan"
+      ]
+    },
+    {
+      "storyline_id": "evt-002",
+      "index": 1,
+      "actor": "www-data",
+      "system": "WEB-BO-01",
+      "activity": "Attacker obtains a shell on the web server and checks process identity",
+      "ground_truth_section": "storyline",
+      "event_types": [
+        "process",
+        "ssh_session"
+      ]
+    },
+    {
+      "storyline_id": "evt-003",
+      "index": 2,
+      "actor": "www-data",
+      "system": "WEB-BO-01",
+      "activity": "Attacker performs light internal discovery from the DMZ host",
+      "ground_truth_section": "storyline",
+      "event_types": [
+        "port_scan",
+        "process"
+      ]
+    },
+    {
+      "storyline_id": "evt-004",
+      "index": 3,
+      "actor": "ameen.khan",
+      "system": "FILE-BO-01",
+      "activity": "Attacker uses compromised admin credentials to RDP from the DMZ web server to the file server",
+      "ground_truth_section": "storyline",
+      "event_types": [
+        "rdp_session"
+      ]
+    },
+    {
+      "storyline_id": "evt-005",
+      "index": 4,
+      "actor": "ameen.khan",
+      "system": "FILE-BO-01",
+      "activity": "Attacker enumerates file shares and stages a small archive",
+      "ground_truth_section": "storyline",
+      "event_types": [
+        "process"
+      ]
+    },
+    {
+      "storyline_id": "evt-006",
+      "index": 5,
+      "actor": "ameen.khan",
+      "system": "WS-AMEEN-01",
+      "activity": "Compromised admin workstation beacons through the explicit proxy to attacker infrastructure",
+      "ground_truth_section": "storyline",
+      "event_types": [
+        "beacon"
+      ]
+    }
+  ],
+  "red_herring_steps": [
+    {
+      "storyline_id": "rh-001",
+      "index": 0,
+      "actor": "victor.hale",
+      "system": "WS-VHALE-01",
+      "activity": "Branch manager mistypes a password during a VPN reconnect",
+      "ground_truth_section": "red_herring",
+      "event_types": [
+        "failed_logon"
+      ],
+      "explanation": "Benign user error that creates a small cluster of failed authentication evidence"
+    }
+  ],
+  "events": [
+    {
+      "record_id": "evt-001#0",
+      "kind": "web_scan",
+      "storyline_id": "evt-001",
+      "time": "2024-05-14T12:54:34Z",
+      "actor": "www-data",
+      "system": "WEB-BO-01",
+      "activity": "External vulnerability scanner probes the public claims portal",
+      "ground_truth_section": "storyline",
+      "emitted": true,
+      "attributes": {
+        "dst_ip": "45.83.220.5",
+        "dst_port": 80,
+        "preset": "nikto",
+        "request_count": 53
+      }
+    },
+    {
+      "record_id": "evt-002#0",
+      "kind": "ssh_session",
+      "storyline_id": "evt-002",
+      "time": "2024-05-14T13:04:34Z",
+      "actor": "www-data",
+      "system": "WEB-BO-01",
+      "activity": "Attacker obtains a shell on the web server and checks process identity",
+      "ground_truth_section": "storyline",
+      "emitted": true,
+      "attributes": {
+        "dst_ip": "10.44.30.10",
+        "dst_port": 22,
+        "uid": "CZiu0zaxF9bUgoPHiB"
+      }
+    },
+    {
+      "record_id": "evt-002#1",
+      "kind": "process",
+      "storyline_id": "evt-002",
+      "time": "2024-05-14T13:04:36Z",
+      "actor": "www-data",
+      "system": "WEB-BO-01",
+      "activity": "Attacker obtains a shell on the web server and checks process identity",
+      "ground_truth_section": "storyline",
+      "emitted": true,
+      "attributes": {
+        "command_line": "id",
+        "pid": 745020,
+        "process_name": "/usr/bin/id"
+      }
+    },
+    {
+      "record_id": "evt-003#0",
+      "kind": "process",
+      "storyline_id": "evt-003",
+      "time": "2024-05-14T13:10:29Z",
+      "actor": "www-data",
+      "system": "WEB-BO-01",
+      "activity": "Attacker performs light internal discovery from the DMZ host",
+      "ground_truth_section": "storyline",
+      "emitted": true,
+      "attributes": {
+        "command_line": "ip addr",
+        "pid": 745050,
+        "process_name": "/usr/sbin/ip"
+      }
+    },
+    {
+      "record_id": "evt-003#1",
+      "kind": "process",
+      "storyline_id": "evt-003",
+      "time": "2024-05-14T13:10:34Z",
+      "actor": "www-data",
+      "system": "WEB-BO-01",
+      "activity": "Attacker performs light internal discovery from the DMZ host",
+      "ground_truth_section": "storyline",
+      "emitted": true,
+      "attributes": {
+        "command_line": "ss -tulpn",
+        "pid": 745097,
+        "process_name": "/usr/sbin/ss"
+      }
+    },
+    {
+      "record_id": "evt-003#2",
+      "kind": "port_scan",
+      "storyline_id": "evt-003",
+      "time": "2024-05-14T13:10:38Z",
+      "actor": "www-data",
+      "system": "WEB-BO-01",
+      "activity": "Attacker performs light internal discovery from the DMZ host",
+      "ground_truth_section": "storyline",
+      "emitted": true,
+      "attributes": {
+        "ports": [
+          22,
+          80,
+          445,
+          3389
+        ],
+        "protocol": "tcp",
+        "target_count": 8,
+        "total_connections": 32
+      }
+    },
+    {
+      "record_id": "evt-004#0",
+      "kind": "rdp_session",
+      "storyline_id": "evt-004",
+      "time": "2024-05-14T13:24:29Z",
+      "actor": "ameen.khan",
+      "system": "FILE-BO-01",
+      "activity": "Attacker uses compromised admin credentials to RDP from the DMZ web server to the file server",
+      "ground_truth_section": "storyline",
+      "emitted": true,
+      "attributes": {
+        "dst_ip": "10.44.20.20",
+        "dst_port": 3389,
+        "uid": "CQ8dl2jNHGpVa1ZGaI"
+      }
+    },
+    {
+      "record_id": "evt-005#0",
+      "kind": "process",
+      "storyline_id": "evt-005",
+      "time": "2024-05-14T13:30:03Z",
+      "actor": "ameen.khan",
+      "system": "FILE-BO-01",
+      "activity": "Attacker enumerates file shares and stages a small archive",
+      "ground_truth_section": "storyline",
+      "emitted": true,
+      "attributes": {
+        "command_line": "cmd.exe /c dir \\\\FILE-BO-01\\Claims /s",
+        "pid": 5456,
+        "process_name": "C:\\Windows\\System32\\cmd.exe"
+      }
+    },
+    {
+      "record_id": "evt-005#1",
+      "kind": "process",
+      "storyline_id": "evt-005",
+      "time": "2024-05-14T13:30:05Z",
+      "actor": "ameen.khan",
+      "system": "FILE-BO-01",
+      "activity": "Attacker enumerates file shares and stages a small archive",
+      "ground_truth_section": "storyline",
+      "emitted": true,
+      "attributes": {
+        "command_line": "powershell.exe -NoProfile -Command Compress-Archive -Path \\\\FILE-BO-01\\Claims\\Q2 -DestinationPath C:\\Windows\\Temp\\q2-rollup.zip -Force",
+        "pid": 5468,
+        "process_name": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+        "staged_archive": "C:\\Windows\\Temp\\q2-rollup.zip"
+      }
+    },
+    {
+      "record_id": "evt-006#0",
+      "kind": "beacon",
+      "storyline_id": "evt-006",
+      "time": "2024-05-14T13:44:25Z",
+      "actor": "ameen.khan",
+      "system": "WS-AMEEN-01",
+      "activity": "Compromised admin workstation beacons through the explicit proxy to attacker infrastructure",
+      "ground_truth_section": "storyline",
+      "emitted": true,
+      "attributes": {
+        "action": "allow",
+        "attempt_count": 8,
+        "dst_ip": "45.83.221.30",
+        "dst_port": 443,
+        "interval": "5m",
+        "termination": "35m"
+      }
+    },
+    {
+      "record_id": "red_herring:rh-001#0",
+      "kind": "failed_logon",
+      "storyline_id": "red_herring:rh-001",
+      "time": "2024-05-14T14:20:03Z",
+      "actor": "victor.hale",
+      "system": "WS-VHALE-01",
+      "activity": "Branch manager mistypes a password during a VPN reconnect",
+      "ground_truth_section": "red_herring",
+      "emitted": true,
+      "explanation": "Benign user error that creates a small cluster of failed authentication evidence",
+      "attributes": {
+        "source_ip": "198.51.100.77"
+      }
+    }
+  ]
+}

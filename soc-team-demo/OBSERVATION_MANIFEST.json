@@ -1,0 +1,227 @@
+{
+  "schema_version": 1,
+  "scenario_name": "soc-team-demo",
+  "observation_profile": "complete",
+  "collection_window": {
+    "start": "2024-05-14T12:00:00Z",
+    "end": "2024-05-14T18:00:00Z"
+  },
+  "source_summary": {
+    "asa": {
+      "visible": 104,
+      "filtered": 13
+    },
+    "ecar": {
+      "visible": 102
+    },
+    "ids": {
+      "visible": 11
+    },
+    "web": {
+      "visible": 47
+    },
+    "zeek": {
+      "visible": 192
+    },
+    "syslog": {
+      "visible": 4
+    },
+    "sysmon": {
+      "visible": 15
+    },
+    "windows_security": {
+      "visible": 32
+    },
+    "proxy": {
+      "visible": 8
+    }
+  },
+  "storyline_events": [
+    {
+      "kind": "storyline",
+      "storyline_id": "evt-001",
+      "index": 0,
+      "actor": "www-data",
+      "system": "WEB-BO-01",
+      "activity": "External vulnerability scanner probes the public claims portal",
+      "event_types": [
+        "web_scan"
+      ],
+      "source_status": {
+        "asa": {
+          "visible": 53
+        },
+        "ecar": {
+          "visible": 53
+        },
+        "ids": {
+          "visible": 11
+        },
+        "web": {
+          "visible": 47
+        },
+        "zeek": {
+          "visible": 100
+        }
+      }
+    },
+    {
+      "kind": "storyline",
+      "storyline_id": "evt-002",
+      "index": 1,
+      "actor": "www-data",
+      "system": "WEB-BO-01",
+      "activity": "Attacker obtains a shell on the web server and checks process identity",
+      "event_types": [
+        "process",
+        "ssh_session"
+      ],
+      "source_status": {
+        "asa": {
+          "visible": 1
+        },
+        "ecar": {
+          "visible": 6
+        },
+        "syslog": {
+          "visible": 4
+        },
+        "zeek": {
+          "visible": 1
+        }
+      }
+    },
+    {
+      "kind": "storyline",
+      "storyline_id": "evt-003",
+      "index": 2,
+      "actor": "www-data",
+      "system": "WEB-BO-01",
+      "activity": "Attacker performs light internal discovery from the DMZ host",
+      "event_types": [
+        "port_scan",
+        "process"
+      ],
+      "source_status": {
+        "asa": {
+          "visible": 32
+        },
+        "ecar": {
+          "visible": 4
+        },
+        "zeek": {
+          "visible": 32
+        }
+      }
+    },
+    {
+      "kind": "storyline",
+      "storyline_id": "evt-004",
+      "index": 3,
+      "actor": "ameen.khan",
+      "system": "FILE-BO-01",
+      "activity": "Attacker uses compromised admin credentials to RDP from the DMZ web server to the file server",
+      "event_types": [
+        "rdp_session"
+      ],
+      "source_status": {
+        "asa": {
+          "visible": 1
+        },
+        "ecar": {
+          "visible": 2
+        },
+        "sysmon": {
+          "visible": 1
+        },
+        "windows_security": {
+          "visible": 3
+        },
+        "zeek": {
+          "visible": 1
+        }
+      }
+    },
+    {
+      "kind": "storyline",
+      "storyline_id": "evt-005",
+      "index": 4,
+      "actor": "ameen.khan",
+      "system": "FILE-BO-01",
+      "activity": "Attacker enumerates file shares and stages a small archive",
+      "event_types": [
+        "process"
+      ],
+      "source_status": {
+        "ecar": {
+          "visible": 6
+        },
+        "sysmon": {
+          "visible": 6
+        },
+        "windows_security": {
+          "visible": 4
+        }
+      }
+    },
+    {
+      "kind": "storyline",
+      "storyline_id": "evt-006",
+      "index": 5,
+      "actor": "ameen.khan",
+      "system": "WS-AMEEN-01",
+      "activity": "Compromised admin workstation beacons through the explicit proxy to attacker infrastructure",
+      "event_types": [
+        "beacon"
+      ],
+      "source_status": {
+        "asa": {
+          "visible": 15,
+          "filtered": 13
+        },
+        "ecar": {
+          "visible": 28
+        },
+        "proxy": {
+          "visible": 8
+        },
+        "sysmon": {
+          "visible": 8
+        },
+        "windows_security": {
+          "visible": 21
+        },
+        "zeek": {
+          "visible": 56
+        }
+      }
+    }
+  ],
+  "red_herring_events": [
+    {
+      "kind": "red_herring",
+      "storyline_id": "rh-001",
+      "index": 0,
+      "actor": "victor.hale",
+      "system": "WS-VHALE-01",
+      "activity": "Branch manager mistypes a password during a VPN reconnect",
+      "event_types": [
+        "failed_logon"
+      ],
+      "source_status": {
+        "asa": {
+          "visible": 2
+        },
+        "ecar": {
+          "visible": 3
+        },
+        "windows_security": {
+          "visible": 4
+        },
+        "zeek": {
+          "visible": 2
+        }
+      }
+    }
+  ]
+}
