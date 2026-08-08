@@ -207,14 +207,3 @@ Output lands wherever `output.destination` points — here that's
 
 This repository is intended strictly for **educational, research, and internship demonstration purposes**.
 
----
-
-⭐ **If you found this project useful, consider giving it a star!** ⭐
-
----
-
-<p align="center">
-  ⚡ Original design by <a href="https://github.com/ammaarquadri">@ammaarquadri</a>
-</p>
-
-<h2 align="center"> <b> Content © 2026 Ammaar Quadri. All rights reserved. </b></h2>
