@@ -505,6 +505,14 @@ Suitable for:
 
 ---
 
+## Work Flow of EvidenceForge
+
+<p align="center">
+  <img src="Flow_EvidenceForge.PNG" alt="Flow of EvidenceForge" width="900">
+</p>
+
+---
+
 ## Repository Purpose
 
 This repository was created as part of research and learning activities related to:
