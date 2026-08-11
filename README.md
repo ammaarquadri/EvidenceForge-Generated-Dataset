@@ -508,7 +508,7 @@ Suitable for:
 ## Work Flow of EvidenceForge
 
 <p align="center">
-  <img src="Flow_EvidenceForge.PNG" alt="Flow of EvidenceForge" width="900">
+  <img src="Flow_EvidenceForge.png" alt="Flow of EvidenceForge" width="900">
 </p>
 
 ---
